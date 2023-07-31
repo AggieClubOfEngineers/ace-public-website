@@ -1,0 +1,155 @@
+.home-content {
+  position: relative;
+}
+
+#full-page-spacer {
+  display: block;
+  min-height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+.text-pages {
+  background-color: var(--main-background);
+  height: fit-content;
+  width: 100vw;
+  padding-top: 4rem;
+  z-index: 3;
+}
+
+.text-pages {
+  padding-bottom: 150px;
+  margin-bottom: -150px;
+}
+
+#home-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+#wall-remap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.welcome-text {
+  position: relative;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  width: 60%;
+  color: rgb(24, 24, 24);
+  padding: 2em;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  z-index: 3;
+}
+
+.welcome-text > p {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 1em 2em;
+  font-size: 1.25rem;
+  color: black;
+}
+
+#welcome-title {
+  font-size: 3rem;
+  color: rgb(77, 77, 77);
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 90%;
+  height: auto;
+  z-index: 1;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 8;
+  transform: translateY(-50%);
+}
+
+.arrow-left {
+  left: 5%;
+}
+
+.arrow-right {
+  right: 5%;
+}
+
+#highlights-container-title {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 4rem;
+}
+
+.highlights-container {
+  position: relative;
+  margin: 0 auto;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  width: 80%;
+}
+
+.highlight {
+  border: black solid 1px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  z-index: 3;
+  padding-bottom: 4rem;
+}
+
+.highlight > h3 {
+  color: black;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.highlight > p {
+  color: black;
+  padding: 1rem;
+  line-height: 1.5em;
+  min-height: 12em;
+}
+
+.highlight-divider {
+  width: 85%;
+  margin: 0 auto;
+  border: none;
+  height: 2px;
+  color: black;
+  background-color: black;
+}
+
+.highlight-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10rem;
+  margin: auto;
+}

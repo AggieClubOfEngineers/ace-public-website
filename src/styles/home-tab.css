@@ -1,0 +1,88 @@
+.events-container {
+  position: relative;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 300px;
+  max-width: 1000px;
+  width: 70vw;
+}
+
+.event-name > h4 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  height: fit-content;
+}
+
+.event-description > h4 {
+  font-weight: 400;
+  min-height: 1rem;
+}
+
+h2 {
+  color: black;
+  font-size: 2rem;
+}
+
+.event-container {
+  position: relative;
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  color: rgb(32, 32, 32);
+  max-width: 250px;
+}
+
+.event-container > hr {
+  margin-top: 0;
+}
+
+.event-name {
+  position: relative;
+  min-height: 4rem;
+}
+
+.event-description {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.event-description > p {
+  font-weight: 500;
+}
+
+.code-entry-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.code-entry-container {
+  background-color: transparent;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  width: 14rem;
+}
+
+.submit-button-container {
+  height: fit-content;
+  margin-bottom: -6px;
+}
+
+.login-button-icon:hover {
+  transform: scale(1.05);
+}
+
+.login-button-icon {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}

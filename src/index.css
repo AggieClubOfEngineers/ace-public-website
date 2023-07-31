@@ -1,0 +1,261 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  #root,
+  #wall-remap {
+    object-position: center;
+    object-fit: cover;
+    overflow-x: hidden;
+  }
+
+  #home-logo {
+    width: 70vw !important;
+  }
+
+  .welcome-text,
+  .welcome-container {
+    padding: 5px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 92vw;
+  }
+
+  .welcome-text > *,
+  .welcome-container > * {
+    font-size: 1rem !important;
+  }
+
+  #welcome-title {
+    font-size: 2.5rem !important;
+  }
+
+  .values-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content {
+    width: 92vw;
+  }
+
+  .letter-container {
+    margin-bottom: 2rem;
+  }
+
+  #letter-title {
+    font-size: 1rem;
+  }
+
+  .about-values-title {
+    font-size: 1.8rem;
+    margin-bottom: -15px;
+  }
+
+  .letter-text {
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 15px;
+    padding-top: 4rem;
+  }
+
+  .president-portrait {
+    max-width: 7em;
+    height: auto;
+    border-radius: 3.5em;
+    margin-left: 0.3em;
+    margin-top: 0.5rem;
+  }
+
+  .contact-content {
+    margin: auto;
+    width: 92vw;
+  }
+
+  .contact-intro {
+    width: 90%;
+  }
+
+  .contact-title {
+    margin-bottom: -15px;
+  }
+
+  .contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .officers-column {
+    width: 90%;
+    align-items: start;
+  }
+
+  .position-title,
+  .email {
+    width: fit-content;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .people-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0;
+    width: 90%;
+    margin: auto;
+  }
+
+  .first-container > .people-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .person-name {
+    font-size: 0.9rem;
+  }
+
+  .person-major {
+    font-size: 0.5rem;
+  }
+
+  .membership-content {
+    width: 100vw;
+    margin: 1em 0;
+  }
+
+  .person-info-bottom {
+    height: 3rem;
+  }
+
+  .person-position {
+    font-size: 0.7rem;
+  }
+
+  .person-info-top {
+    height: 1.5rem;
+  }
+
+  .linkedin-link {
+    top: 1.5rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-content {
+    width: 92vw !important;
+  }
+  .service-logo {
+    position: relative;
+    width: 50% !important;
+    left: 25% !important;
+  }
+
+  .service-container > .partial-divider {
+    border: none;
+  }
+
+  .service-container > .full-size-divider {
+    margin-bottom: 0;
+  }
+
+  .camphope-banner {
+    margin-top: 1rem;
+  }
+
+  .informational,
+  .event {
+    width: 80%;
+    text-align: center;
+  }
+
+  .recruitment-content {
+    width: 92vw;
+  }
+
+  .application-content {
+    margin: 1rem 1.5rem 3rem 1.5rem;
+  }
+
+  .events-content {
+    margin-top: 1rem;
+  }
+
+  .recruitment-team-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 2rem;
+  }
+
+  .informationals-content {
+    margin: 1.5rem 0;
+  }
+
+  .recruitment-chair-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem 2rem;
+  }
+
+  .highlights-container {
+    grid-template-columns: 1fr;
+  }
+
+  .first-category {
+    margin: 1rem 2rem !important;
+    margin-bottom: 0rem;
+  }
+
+  .first-category > .people-container > .person-container > div > .person-name {
+    font-size: 1.6rem;
+  }
+  .first-category
+    > .people-container
+    > .person-container
+    > div
+    > .person-position {
+    font-size: 1.2rem;
+  }
+  .first-category
+    > .people-container
+    > .person-container
+    > div
+    > .person-major {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .first-category
+    > .people-container
+    > .person-container
+    > .person-info-bottom {
+    height: 4rem;
+  }
+
+  .people-container {
+    border-bottom: none;
+  }
+
+  .first-category.category-container {
+    padding: 0;
+  }
+}

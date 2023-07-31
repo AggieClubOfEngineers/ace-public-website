@@ -1,0 +1,78 @@
+.service-content {
+  width: 70vw;
+  margin-top: 2em;
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid #252525;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  gap: 1em;
+}
+
+.service-title {
+  color: var(--main-background);
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+hr {
+  border-color: var(--main-background);
+}
+
+.camphope-banner {
+  position: relative;
+  width: 85%;
+  left: 7.5%;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.service-container > p {
+  color: var(--main-background);
+  width: 82%;
+  margin: auto;
+  text-indent: 1cm;
+  margin-bottom: 2rem;
+}
+
+.full-size-divider {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  border-color: var(--main-background);
+}
+
+.partial-divider {
+  border-color: var(--main-background);
+}
+
+.service-logo {
+  position: relative;
+  width: 30%;
+  left: 35%;
+}
+
+#s4h-content > p {
+  margin: 0;
+  width: 50%;
+  text-align: center;
+  right: 5%;
+}
+
+.service-additional-content > img {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-bottom: 3rem;
+}
+
+.camp-hope-content {
+  margin-top: 4rem;
+}
+
+#bsb-logo {
+  margin: 1rem 0;
+}
+
+#bgc-logo {
+  margin: 2rem 0;
+}

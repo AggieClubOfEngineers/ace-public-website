@@ -1,0 +1,63 @@
+.about-content {
+  width: 70vw;
+  margin-top: 2em;
+  background-color: var(--main-background-opaque);
+  border-radius: 20px;
+  border: 3px solid #252525;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  gap: 1em;
+}
+
+.values-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1em;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.value-container > p {
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+.value-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.president-portrait {
+  position: absolute;
+  max-width: 10em;
+  height: auto;
+  border-radius: 5em;
+  margin-left: 6em;
+  margin-top: -3em;
+}
+
+.letter-text {
+  margin: 2em 12em;
+  background-color: rgb(249, 244, 238);
+  color: black;
+  padding: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+#letter-title {
+  margin-top: 5rem;
+  color: white;
+}
+
+.value-title {
+  color: white;
+}
