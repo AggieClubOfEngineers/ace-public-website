@@ -9,6 +9,13 @@ import Membership from "../public-pages/Membership";
 import Recruitment from "../public-pages/Recruitment";
 import ContactUs from "../public-pages/ContactUs";
 
+import nightZachImg from "../../assets/img/BackgroundImages/NightZach.jpg";
+import zeeImg from "../../assets/img/BackgroundImages/zeec.jpg";
+import website4Img from "../../assets/img/BackgroundImages/Website4.png";
+import website3Img from "../../assets/img/BackgroundImages/Website3.png";
+import bg4Img from "../../assets/img/BackgroundImages/BG4.png";
+import website2Img from "../../assets/img/BackgroundImages/Website2.png";
+
 import "../../styles/public-view.css";
 
 const PublicView = ({ switchView }) => {
@@ -22,19 +29,19 @@ const PublicView = ({ switchView }) => {
   const getBackgroundStyle = () => {
     switch (activeTab) {
       case "home":
-        return "url('./src/assets/img/BackgroundImages/NightZach.jpg')";
+        return `url('${nightZachImg}')`;
       case "about-us":
-        return "url('./src/assets/img/BackgroundImages/zeec.jpg')";
+        return `url('${zeeImg}')`;
       case "service":
-        return "url('./src/assets/img/BackgroundImages/Website4.JPG')";
+        return `url('${website4Img}')`;
       case "membership":
-        return "url('./src/assets/img/BackgroundImages/Website3.JPG')";
+        return `url('${website3Img}')`;
       case "contact-us":
-        return "url('./src/assets/img/BackgroundImages/BG4.JPG')";
+        return `url('${bg4Img}')`;
       case "recruitment":
-        return "url('./src/assets/img/BackgroundImages/Website2.JPG')";
+        return `url('${website2Img}')`;
       default:
-        return "url('./src/assets/img/BackgroundImages/NightZach.jpg')";
+        return `url('${nightZachImg}')`;
     }
   };
 

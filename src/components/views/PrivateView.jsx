@@ -6,8 +6,8 @@ import "../../styles/member-view.css";
 
 const PrivateView = ({ switchView }) => {
   const [member, setMember] = useState({
-    memberId: "john_doe",
-    role: "officer",
+    memberId: "",
+    role: "",
   });
 
   const renderPage = () => {

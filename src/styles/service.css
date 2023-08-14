@@ -76,3 +76,9 @@ hr {
 #bgc-logo {
   margin: 2rem 0;
 }
+
+#ptsd-link {
+  color: var(--main-background);
+  font-weight: bold;
+  text-decoration: underline;
+}

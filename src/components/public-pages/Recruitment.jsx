@@ -2,16 +2,33 @@ import React from "react";
 
 import "../../styles/recruitment.css";
 
+import glory from "../../assets/img/2022Headshots/glory.jpg";
+import brandonTurnage from "../../assets/img/2022Headshots/brandonTurnage.jpg";
+import nickDitt from "../../assets/img/2022Headshots/nickDitt.jpg";
+import amritNanda from "../../assets/img/2022Headshots/amritNanda.jpg";
+import andrewMarshall from "../../assets/img/2022Headshots/andrewMarshall.jpg";
+import connorGilliland from "../../assets/img/2022Headshots/connorGilliland.jpg";
+import drewRemington from "../../assets/img/2022Headshots/drewRemington.jpg";
+import hudsonHurtig from "../../assets/img/2022Headshots/hudsonHurtig.jpeg";
+import jacobTech from "../../assets/img/2022Headshots/jacobTech.jpg";
+import joeyKacer from "../../assets/img/2022Headshots/joeyKacer.jpg";
+import JonathanKutsch from "../../assets/img/HeadshotsFall2020Compressed/JonathanKutsch.jpg";
+import josephValenta from "../../assets/img/2022Headshots/josephValenta.jpg";
+import lucasGiammona from "../../assets/img/2022Headshots/lucasGiammona.jpg";
+import nathanCasazza from "../../assets/img/2022Headshots/nathanCasazza.jpg";
+import nils from "../../assets/img/2022Headshots/nils.jpg";
+import peytonW from "../../assets/img/2022Headshots/peytonW.jpg";
+import prestonGreenwood from "../../assets/img/2022Headshots/prestonGreenwood.jpg";
+import RyanRiddle from "../../assets/img/Additional_Headshots/RyanRiddle.jpg";
+import sidVenk from "../../assets/img/2022Headshots/sidVenk.jpg";
+import andrewLin from "../../assets/img/2022Headshots/andrewLin.jpg";
+import grantShuttle from "../../assets/img/2022Headshots/grantShuttle.jpg";
+
 const Recruitment = () => (
   <div className="recruitment-content">
     <h1 className="informationals-title">Informationals</h1>
     <hr className="under-title" />
     <div className="informationals-content">
-      <div className="informational">
-        <h5>August 22nd</h5>
-        <p>7:00 - 8:00PM</p>
-        <p>Rudder 601</p>
-      </div>
       <div className="informational">
         <h5>August 23rd</h5>
         <p>7:00 - 8:00PM</p>
@@ -19,13 +36,18 @@ const Recruitment = () => (
       </div>
       <div className="informational">
         <h5>August 24th</h5>
-        <p>7:00 - 8:00PM</p>
+        <p>8:30 - 9:30PM</p>
         <p>Rudder 301</p>
       </div>
       <div className="informational">
         <h5>MSC Open House</h5>
         <p>August 27th, 1:00 - 5:00PM</p>
         <p>MSC</p>
+      </div>
+      <div className="informational">
+        <h5>August 28th</h5>
+        <p>7:00 - 8:00PM</p>
+        <p>TBD</p>
       </div>
     </div>
     <hr className="under-section" />
@@ -49,10 +71,11 @@ const Recruitment = () => (
         organization, please reach out to our{" "}
         <a
           id="recruitment-link"
-          href="mailto:TamuAceRecruitment@gmail.com;Nickmoreno2012@yahoo.com;marshalperkins@gmail.com"
+          href="mailto:TamuAceRecruitment@gmail.com;wgs20@tamu.edu;andrew.mlin27@tamu.edu"
         >
           recruitment chairs.
         </a>
+        Applications go live 8/21 and close 8/29 @ 5pm.
       </p>
       {/* <h4 className=" p-1 text-center">
         CLICK
@@ -67,7 +90,7 @@ const Recruitment = () => (
     <div className="events-content">
       <div className="event">
         <h5>Invite Only Social</h5>
-        <p>August 30th</p>
+        <p>August 31st</p>
       </div>
       <div className="event">
         <h5>Invite Only Social</h5>
@@ -78,8 +101,12 @@ const Recruitment = () => (
         <p>September 7th</p>
       </div>
       <div className="event">
-        <h5>Invite Only Social</h5>
+        <h5>Invite Only Interviews</h5>
         <p>September 11th-12th</p>
+      </div>
+      <div className="event">
+        <h5>Final Decisions</h5>
+        <p>September 14th</p>
       </div>
     </div>
     <hr className="under-section" />
@@ -87,14 +114,8 @@ const Recruitment = () => (
     <h1 className="recruitment-chair-title">Recruitment Chairs</h1>
     <hr className="under-title" />
     <div className="recruitment-chair-content">
-      <Person
-        name={"Andrew Lin"}
-        image={"./src/assets/img/2022Headshots/andrewLin.jpg"}
-      />
-      <Person
-        name={"Grant Schoettlekotte"}
-        image={"./src/assets/img/2022Headshots/grantShuttle.jpg"}
-      />
+      <Person name={"Andrew Lin"} image={andrewLin} />
+      <Person name={"Grant Schoettlekotte"} image={grantShuttle} />
     </div>
 
     <h1 className="recruitment-team-title">Recruitment Team</h1>
@@ -119,79 +140,79 @@ function Person({ name, image }) {
 const people = [
   {
     name: "Glory Oluwole",
-    image: "./src/assets/img/2022Headshots/glory.jpg",
+    image: glory,
   },
   {
     name: "Brandon Turnage",
-    image: "./src/assets/img/2022Headshots/brandonTurnage.jpg",
+    image: brandonTurnage,
   },
   {
     name: "Nick Dittermore",
-    image: "./src/assets/img/2022Headshots/nickDitt.jpg",
+    image: nickDitt,
   },
   {
     name: "Amrit Nanda",
-    image: "./src/assets/img/2022Headshots/amritNanda.jpg",
+    image: amritNanda,
   },
   {
     name: "Andrew Marshall",
-    image: "./src/assets/img/2022Headshots/andrewMarshall.jpg",
+    image: andrewMarshall,
   },
   {
     name: "Connor Gilliland",
-    image: "./src/assets/img/2022Headshots/connorGilliland.jpg",
+    image: connorGilliland,
   },
   {
     name: "Drew Remington",
-    image: "./src/assets/img/2022Headshots/drewRemington.jpg",
+    image: drewRemington,
   },
   {
     name: "Hudson Hurtig",
-    image: "./src/assets/img/2022Headshots/hudsonHurtig.jpeg",
+    image: hudsonHurtig,
   },
   {
     name: "Jacob Technik",
-    image: "./src/assets/img/2022Headshots/jacobTech.jpg",
+    image: jacobTech,
   },
   {
     name: "Joey Kacer",
-    image: "./src/assets/img/2022Headshots/joeyKacer.jpg",
+    image: joeyKacer,
   },
   {
     name: "Jonathan Kutsch",
-    image: "./src/assets/img/HeadshotsFall2020Compressed/JonathanKutsch.jpg",
+    image: JonathanKutsch,
   },
   {
     name: "Joseph Valenta",
-    image: "./src/assets/img/2022Headshots/josephValenta.jpg",
+    image: josephValenta,
   },
   {
     name: "Lucas Giammona",
-    image: "./src/assets/img/2022Headshots/lucasGiammona.jpg",
+    image: lucasGiammona,
   },
   {
     name: "Nathan Casazza",
-    image: "./src/assets/img/2022Headshots/nathanCasazza.jpg",
+    image: nathanCasazza,
   },
   {
     name: "Nils Ljung",
-    image: "./src/assets/img/2022Headshots/nils.jpg",
+    image: nils,
   },
   {
     name: "Peyton Woytek",
-    image: "./src/assets/img/2022Headshots/peytonW.jpg",
+    image: peytonW,
   },
   {
     name: "Preston Greenwood",
-    image: "./src/assets/img/2022Headshots/prestonGreenwood.jpg",
+    image: prestonGreenwood,
   },
   // {
   //   name: "Ryan Riddle",
-  //   image: "./src/assets/img/Additional_Headshots/RyanRiddle.jpg",
+  //   image: RyanRiddle,
   // },
   {
     name: "Sid Venkatraman",
-    image: "./src/assets/img/2022Headshots/sidVenk.jpg",
+    image: sidVenk,
   },
 ];
 

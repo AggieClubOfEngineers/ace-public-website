@@ -73,7 +73,7 @@ function Home() {
               <h3>Parents Weekend</h3>
               <hr className="highlight-divider" />
               <p>
-                Famililies of ACE: Bring your folks to experience a slice of our
+                Families of ACE: Bring your folks to experience a slice of our
                 brotherhood during our annual Parents' Weekend; let them see why
                 we are more than just an org, but a family.
               </p>

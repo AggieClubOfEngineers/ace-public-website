@@ -4,26 +4,23 @@ import PublicView from "./components/views/PublicView";
 import PrivateView from "./components/views/PrivateView";
 
 const App = () => {
-  const [activeView, setActiveView] = useState(
-    localStorage.getItem("activeView")
-  );
+  const initialView = localStorage.getItem("activeView") || "public";
+  const [activeView, setActiveView] = useState(initialView);
 
   useEffect(() => {
-    // whenever activeTab changes, update it in local storage
+    // whenever activeView changes, update it in local storage
     localStorage.setItem("activeView", activeView);
   }, [activeView]);
 
   function switchView() {
-    if (!activeView || activeView == "public") {
-      setActiveView("member");
-    } else {
-      setActiveView("public");
-    }
+    setActiveView((prevView) => (prevView === "public" ? "member" : "public"));
   }
 
-  if (!activeView || activeView == "public")
-    return <PublicView switchView={switchView} />;
-  else return <PrivateView switchView={switchView} />;
+  return activeView === "public" ? (
+    <PublicView switchView={switchView} />
+  ) : (
+    <PrivateView switchView={switchView} />
+  );
 };
 
 export default App;

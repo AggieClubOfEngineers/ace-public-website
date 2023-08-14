@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   externals: [/^\@material\-ui\/core\/.*/],
   plugins: [react()],
-  base: 'https://aggieclubofengineers.org/'
+  base: '/',
 })

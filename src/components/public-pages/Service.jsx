@@ -37,11 +37,12 @@ function Service() {
             href="https://ptsdusa.org/camp-hope/"
             target="_blank"
           >
-            PTSD USA's website.
+            PTSD USA's website
           </a>
+          .
         </p>
         <p>
-          We are proud to say we raised over $10,000 for Camp Hope in the 23-24
+          We are proud to say we raised over $10,000 for Camp Hope in the 22-23
           year!
         </p>
         <hr className="full-size-divider" />
