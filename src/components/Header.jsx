@@ -3,7 +3,7 @@ import { Menu as MenuIcon } from "tabler-icons-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logos/wolf_logo.svg";
 
-const Header = ({ setActiveTab, switchView }) => {
+const Header = ({ setActiveTab }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const node = useRef();
   const hamburger = useRef();
@@ -161,13 +161,13 @@ const Header = ({ setActiveTab, switchView }) => {
         </ul>
       </div>
 
-      <button
+      {/* <button
         className="nav-text"
         id="member-portal-button"
         onClick={switchView}
       >
         MEMBER PORTAL
-      </button>
+      </button> */}
     </header>
   );
 };

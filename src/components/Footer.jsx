@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
         <a
           className="footer__icon-link"
-          href="mailto:TamuAceRecruitment@gmail.com;Nickmoreno2012@yahoo.com;marshalperkins@gmail.com"
+          href="mailto:TamuAceRecruitment@gmail.com;wgs20@tamu.edu;andrew.mlin27@tamu.edu"
         >
           <Mail size={50} strokeWidth={1.5} color="white" />
         </a>

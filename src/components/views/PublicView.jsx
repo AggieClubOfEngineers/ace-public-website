@@ -18,7 +18,7 @@ import website2Img from "../../assets/img/BackgroundImages/Website2.png";
 
 import "../../styles/public-view.css";
 
-const PublicView = ({ switchView }) => {
+const PublicView = () => {
   const [activeTab, setActiveTab] = useState(localStorage.getItem("activeTab"));
 
   useEffect(() => {
@@ -55,7 +55,7 @@ const PublicView = ({ switchView }) => {
   return (
     <div id="root" className="public" style={backgroundStyle} key={activeTab}>
       <Router>
-        <Header setActiveTab={setActiveTab} switchView={switchView} />
+        <Header setActiveTab={setActiveTab} />
         <main>
           <Switch>
             <Route exact path="/" component={Home} />

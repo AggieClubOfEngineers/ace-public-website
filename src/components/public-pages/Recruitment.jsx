@@ -101,7 +101,7 @@ const Recruitment = () => (
         <p>September 7th</p>
       </div>
       <div className="event">
-        <h5>Invite Only Interviews</h5>
+        <h5>Interviews</h5>
         <p>September 11th-12th</p>
       </div>
       <div className="event">
