@@ -206,14 +206,14 @@ const people = [
     name: "Nathan Casazza",
     image: nathanCasazza,
   },
-  {
-    name: "Nils Ljung",
-    image: nils,
-  },
-  {
-    name: "Preston Greenwood",
-    image: prestonGreenwood,
-  },
+  // {
+  //   name: "Nils Ljung",
+  //   image: nils,
+  // },
+  // {
+  //   name: "Preston Greenwood",
+  //   image: prestonGreenwood,
+  // },
   {
     name: "Ryan Riddle",
     image: RyanRiddle,
