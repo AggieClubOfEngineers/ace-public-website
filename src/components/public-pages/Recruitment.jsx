@@ -42,12 +42,12 @@ const Recruitment = () => (
       <div className="informational">
         <h5>MSC Open House</h5>
         <p>August 27th, 1:00 - 5:00PM</p>
-        <p>MSC</p>
+        <p>Simpson Drill Field</p>
       </div>
       <div className="informational">
         <h5>August 28th</h5>
-        <p>7:00 - 8:00PM</p>
-        <p>TBD</p>
+        <p>9:30 - 10:30PM</p>
+        <p>MSC 2406B</p>
       </div>
     </div>
     <hr className="under-section" />
@@ -74,8 +74,8 @@ const Recruitment = () => (
           href="mailto:TamuAceRecruitment@gmail.com;wgs20@tamu.edu;andrew.mlin27@tamu.edu"
         >
           recruitment chairs.
-        </a>
-        Applications go live 8/21 and close 8/29 @ 5pm.
+        </a>{" "}
+        Applications go live 8/21 and close 8/29 @ 11:59pm.
       </p>
       {/* <h4 className=" p-1 text-center">
         CLICK
