@@ -95,7 +95,18 @@ const Recruitment = () => (
         >
           recruitment chairs.
         </a>{" "}
-        Applications go live 8/21 and close 8/29 @ 11:59pm.
+        Applications close 8/29 @ 11:59pm.
+      </p>
+      <br />
+      <p>
+        Click{" "}
+        <a
+          id="recruitment-link"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScplJcTRWBmAd_jiTsuNchwQVCxR_ocFXXQHL8RICZJwG4W_w/viewform"
+        >
+          here
+        </a>{" "}
+        for the application.
       </p>
       {/* <h4 className=" p-1 text-center">
         CLICK
@@ -197,10 +208,6 @@ const people = [
   {
     name: "Jonathan Kutsch",
     image: JonathanKutsch,
-  },
-  {
-    name: "Joseph Valenta",
-    image: josephValenta,
   },
   {
     name: "Nathan Casazza",
