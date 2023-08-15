@@ -11,18 +11,38 @@ import connorGilliland from "../../assets/img/2022Headshots/connorGilliland.jpg"
 import drewRemington from "../../assets/img/2022Headshots/drewRemington.jpg";
 import hudsonHurtig from "../../assets/img/2022Headshots/hudsonHurtig.jpeg";
 import jacobTech from "../../assets/img/2022Headshots/jacobTech.jpg";
-import joeyKacer from "../../assets/img/2022Headshots/joeyKacer.jpg";
 import JonathanKutsch from "../../assets/img/HeadshotsFall2020Compressed/JonathanKutsch.jpg";
 import josephValenta from "../../assets/img/2022Headshots/josephValenta.jpg";
-import lucasGiammona from "../../assets/img/2022Headshots/lucasGiammona.jpg";
 import nathanCasazza from "../../assets/img/2022Headshots/nathanCasazza.jpg";
 import nils from "../../assets/img/2022Headshots/nils.jpg";
-import peytonW from "../../assets/img/2022Headshots/peytonW.jpg";
 import prestonGreenwood from "../../assets/img/2022Headshots/prestonGreenwood.jpg";
 import RyanRiddle from "../../assets/img/Additional_Headshots/RyanRiddle.jpg";
 import sidVenk from "../../assets/img/2022Headshots/sidVenk.jpg";
 import andrewLin from "../../assets/img/2022Headshots/andrewLin.jpg";
 import grantShuttle from "../../assets/img/2022Headshots/grantShuttle.jpg";
+import nateMatthew from "../../assets/img/2022Headshots/nateMatthew.jpg";
+import lucasSwoyer from "../../assets/img/2022Headshots/lucasSwoyer.jpg";
+import vinnyLoBello from "../../assets/img/2022Headshots/vinnyLoBello.jpg";
+import JacksonNorfolk from "../../assets/img/HeadshotsFall2020Compressed/JacksonNorfolk.jpg";
+import clement from "../../assets/img/2021Headshots/clement.jpg";
+import podrazaheadshot from "../../assets/img/2021Headshots/podrazaheadshot.jpg";
+import jessHolbert from "../../assets/img/2022Headshots/jessHolbert.jpg";
+import bradenHeadshot from "../../assets/img/2021Headshots/bradenHeadshot.jpg";
+import irvingSalinas from "../../assets/img/2022Headshots/irvingSalinas.jpg";
+import ericMcGon from "../../assets/img/2022Headshots/ericMcGon.jpg";
+import scottTrouy from "../../assets/img/2022Headshots/scottTrouy.jpg";
+import aidenPena from "../../assets/img/2022Headshots/aidenPena.jpg";
+import danielGarcia from "../../assets/img/2022Headshots/danielGarcia.jpg";
+import TylerWoods from "../../assets/img/HeadshotsFall2020Compressed/TylerWoods.jpg";
+import vanWilcox from "../../assets/img/2022Headshots/vanWilcox.jpg";
+import JonVanwagenen from "../../assets/img/HeadshotsFall2020Compressed/JonVanwagenen.jpg";
+import juanNerio from "../../assets/img/2022Headshots/juanNerio.jpg";
+import chaseAlbright from "../../assets/img/2022Headshots/chaseAlbright.jpg";
+import ethanBirdsall from "../../assets/img/2022Headshots/ethanBirdsall.jpg";
+import rogstadhedshot from "../../assets/img/2021Headshots/rogstadhedshot.jpg";
+import benWhite from "../../assets/img/2022Headshots/benWhite.jpg";
+import lukeSmith from "../../assets/img/2022Headshots/lukeSmith.jpg";
+import dohoonKim from "../../assets/img/2022Headshots/dohoonKim.jpg";
 
 const Recruitment = () => (
   <div className="recruitment-content">
@@ -175,20 +195,12 @@ const people = [
     image: jacobTech,
   },
   {
-    name: "Joey Kacer",
-    image: joeyKacer,
-  },
-  {
     name: "Jonathan Kutsch",
     image: JonathanKutsch,
   },
   {
     name: "Joseph Valenta",
     image: josephValenta,
-  },
-  {
-    name: "Lucas Giammona",
-    image: lucasGiammona,
   },
   {
     name: "Nathan Casazza",
@@ -199,20 +211,112 @@ const people = [
     image: nils,
   },
   {
-    name: "Peyton Woytek",
-    image: peytonW,
-  },
-  {
     name: "Preston Greenwood",
     image: prestonGreenwood,
   },
-  // {
-  //   name: "Ryan Riddle",
-  //   image: RyanRiddle,
-  // },
+  {
+    name: "Ryan Riddle",
+    image: RyanRiddle,
+  },
   {
     name: "Sid Venkatraman",
     image: sidVenk,
+  },
+  {
+    name: "Nate Matthews",
+    image: nateMatthew,
+  },
+  {
+    name: "Lucas Swoyer",
+    image: lucasSwoyer,
+  },
+  {
+    name: "Clement Ong",
+    image: clement,
+  },
+  {
+    name: "Vincent LoBello",
+    image: vinnyLoBello,
+  },
+  {
+    name: "Jackson Norfolk",
+    image: JacksonNorfolk,
+  },
+  {
+    name: "Zach Podraza",
+    image: podrazaheadshot,
+  },
+  {
+    name: "Jess Holbert",
+    image: jessHolbert,
+  },
+  {
+    name: "Braden Loeffler",
+    image: bradenHeadshot,
+  },
+  {
+    name: "Irving Salinas",
+    image: irvingSalinas,
+  },
+  {
+    name: "Eric McGonagle",
+    image: ericMcGon,
+  },
+  {
+    name: "Scott Trouy",
+    image: scottTrouy,
+  },
+  {
+    name: "Aiden Pena",
+    image: aidenPena,
+  },
+  {
+    name: "Van Wilcox",
+    image: vanWilcox,
+  },
+  {
+    name: "Daniel Garcia",
+    image: danielGarcia,
+  },
+  {
+    name: "Tyler Woods",
+    image: TylerWoods,
+  },
+  {
+    name: "Jon Vanwagenen",
+    image: JonVanwagenen,
+  },
+  {
+    name: "Juan Nerio",
+    image: juanNerio,
+  },
+  {
+    name: "Joseph Valenta",
+    image: josephValenta,
+  },
+  {
+    name: "Chase Albright",
+    image: chaseAlbright,
+  },
+  {
+    name: "Ethan Birdsall",
+    image: ethanBirdsall,
+  },
+  {
+    name: "Nicolas Rogstad",
+    image: rogstadhedshot,
+  },
+  {
+    name: "Ben White",
+    image: benWhite,
+  },
+  {
+    name: "Luke Smith",
+    image: lukeSmith,
+  },
+  {
+    name: "Dohoon Kim",
+    image: dohoonKim,
   },
 ];
 
