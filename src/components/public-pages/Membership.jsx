@@ -46,7 +46,7 @@ import gerryRuiz from "../../assets/img/2022Headshots/gerryRuiz.jpg";
 import hunterAschen from "../../assets/img/2022Headshots/hunterAschen.jpg";
 import irvingSalinas from "../../assets/img/2022Headshots/irvingSalinas.jpg";
 import JacksonNorfolk from "../../assets/img/HeadshotsFall2020Compressed/JacksonNorfolk.jpg";
-import JonVanwagenen from "../../assets/img/HeadshotsFall2020Compressed/JonVanwagenen.jpg";
+import JonVanwagenen from "../../assets/img/2022Headshots/jonV.png";
 import juanNerio from "../../assets/img/2022Headshots/juanNerio.jpg";
 import justenPearl from "../../assets/img/2022Headshots/justenPearl.jpg";
 import kyleDessens from "../../assets/img/2022Headshots/kyleDessens.jpg";
