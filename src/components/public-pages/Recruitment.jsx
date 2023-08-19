@@ -69,6 +69,11 @@ const Recruitment = () => (
         <p>9:30 - 10:30PM</p>
         <p>MSC 2406B</p>
       </div>
+      <div className="informational">
+        <h5>August 29th</h5>
+        <p>7:00 - 8:00PM</p>
+        <p>MSC 2400</p>
+      </div>
     </div>
     <hr className="under-section" />
 
@@ -95,7 +100,7 @@ const Recruitment = () => (
         >
           recruitment chairs.
         </a>{" "}
-        Applications close 8/29 @ 11:59pm.
+        Applications close 8/30 @ 5pm.
       </p>
       <br />
       <p>
