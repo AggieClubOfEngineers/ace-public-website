@@ -43,17 +43,13 @@ import rogstadhedshot from "../../assets/img/2021Headshots/rogstadhedshot.jpg";
 import benWhite from "../../assets/img/2022Headshots/benWhite.jpg";
 import lukeSmith from "../../assets/img/2022Headshots/lukeSmith.jpg";
 import dohoonKim from "../../assets/img/2022Headshots/dohoonKim.jpg";
+import morenoheadshot from "../../assets/img/2021Headshots/morenoheadshot.jpg";
 
 const Recruitment = () => (
   <div className="recruitment-content">
     <h1 className="informationals-title">Informationals</h1>
     <hr className="under-title" />
     <div className="informationals-content">
-      <div className="informational">
-        <h5>August 23rd</h5>
-        <p>7:00 - 8:00PM</p>
-        <p>Rudder 301</p>
-      </div>
       <div className="informational">
         <h5>August 24th</h5>
         <p>8:30 - 9:30PM</p>
@@ -329,6 +325,10 @@ const people = [
   {
     name: "Dohoon Kim",
     image: dohoonKim,
+  },
+  {
+    name: "Nick Moreno",
+    image: morenoheadshot,
   },
 ];
 
