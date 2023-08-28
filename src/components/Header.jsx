@@ -161,13 +161,13 @@ const Header = ({ setActiveTab }) => {
         </ul>
       </div>
 
-      {/* <button
+      <a
         className="nav-text"
         id="member-portal-button"
-        onClick={switchView}
+        href="https://ace-website-host.web.app/"
       >
         MEMBER PORTAL
-      </button> */}
+      </a>
     </header>
   );
 };

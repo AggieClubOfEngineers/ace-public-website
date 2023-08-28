@@ -575,7 +575,7 @@ const peopleByCategory = [
         name: "Nicolas Rogstad",
         position: "",
         linkedin: "https://www.linkedin.com/in/nicolas-rogstad-2023/",
-        major: "Petroleum Engineering '22",
+        major: "Petroleum Engineering '23",
         image: rogstadhedshot,
       },
       {
