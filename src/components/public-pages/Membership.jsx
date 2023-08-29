@@ -400,7 +400,7 @@ const peopleByCategory = [
         name: "Dylan Bell",
         position: "",
         linkedin: "",
-        major: "",
+        major: "Architectural Engineering '25",
         image: dylanBell,
       },
       {
@@ -540,7 +540,7 @@ const peopleByCategory = [
         name: "Matthew Oakland",
         position: "",
         linkedin: "",
-        major: "",
+        major: "Industrial and Systems Engineering '25",
         image: mattOakland,
       },
       {
@@ -603,7 +603,7 @@ const peopleByCategory = [
         name: "Tyler Powell",
         position: "",
         linkedin: "",
-        major: "",
+        major: "Architectural Engineering '24",
         image: tylerPowell,
       },
       {
