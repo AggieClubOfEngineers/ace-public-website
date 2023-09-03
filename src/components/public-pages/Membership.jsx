@@ -348,13 +348,6 @@ const peopleByCategory = [
         image: bradenHeadshot,
       },
       {
-        name: "Brayden Rosello",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/brayden-rosello-9759811b9/",
-        major: "Mechanical Engineering '24",
-        image: braydenRosello,
-      },
-      {
         name: "Chase Albright",
         position: "",
         linkedin: "https://www.linkedin.com/in/chase-albright-b82b92202/",
@@ -367,13 +360,6 @@ const peopleByCategory = [
         linkedin: "https://www.linkedin.com/in/clement-ong-ba830a24b/",
         major: "Electrical Engineering '23",
         image: clement,
-      },
-      {
-        name: "Connor Zuspan",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/connor-zuspan-90b9031b6/",
-        major: "Engineering '24",
-        image: connorZuspan,
       },
       {
         name: "Dakota Fathke",
