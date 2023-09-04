@@ -310,6 +310,67 @@ const peopleByCategory = [
     ],
   },
   {
+    title: "Godfathers",
+    people: [
+      {
+        name: "Vinny LoBello",
+        position: "Zapdos Godfather",
+        linkedin: "https://www.linkedin.com/in/vincent-lobello-13345b21b/",
+        major: "Computer Science '24",
+        image: vinnyLoBello,
+      },
+      {
+        name: "Luke Smith",
+        position: "Zapdos Godfather",
+        linkedin: "https://www.linkedin.com/in/luke-smith-516527178/",
+        major: "Electrical Engineering '23",
+        image: lukeSmith,
+      },
+      {
+        name: "Nate Mathews",
+        position: "ISEN Godfather",
+        linkedin: "https://www.linkedin.com/in/nathanielmathews/",
+        major: "Industrial & Systems Engineering '24",
+        image: nateMatthew,
+      },
+      {
+        name: "Matthew Oakland",
+        position: "ISEN Godfather",
+        linkedin: "",
+        major: "Industrial and Systems Engineering '25",
+        image: mattOakland,
+      },
+      {
+        name: "Tyler Powell",
+        position: "MEEN Godfather",
+        linkedin: "",
+        major: "Architectural Engineering '24",
+        image: tylerPowell,
+      },
+      {
+        name: "Juan Nerio",
+        position: "MEEN Godfather",
+        linkedin: "https://www.linkedin.com/in/juan-nerio-iii-a62440205/",
+        major: "Civil Engineering '23",
+        image: juanNerio,
+      },
+      {
+        name: "Whitten Bowles",
+        position: "PETE Godfather",
+        linkedin: "https://www.linkedin.com/in/whitten-bowles-1231821b1/",
+        major: "Petroleum Engineering '25",
+        image: whittenBowles,
+      },
+      {
+        name: "Scott Trouy",
+        position: "PETE Godfather",
+        linkedin: "https://www.linkedin.com/in/scott-trouy/",
+        major: "Nuclear Engineering '23",
+        image: scottTrouy,
+      },
+    ],
+  },
+  {
     title: "Active Members",
     people: [
       {
@@ -453,13 +514,6 @@ const peopleByCategory = [
         image: JonVanwagenen,
       },
       {
-        name: "Juan Nerio",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/juan-nerio-iii-a62440205/",
-        major: "Civil Engineering '23",
-        image: juanNerio,
-      },
-      {
         name: "Justen Pearl",
         position: "",
         linkedin: "https://www.linkedin.com/in/justen-pearl-2b9706263/",
@@ -502,13 +556,6 @@ const peopleByCategory = [
         image: lukeSciba,
       },
       {
-        name: "Luke Smith",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/luke-smith-516527178/",
-        major: "Electrical Engineering '23",
-        image: lukeSmith,
-      },
-      {
         name: "Mateo Cerna",
         position: "",
         linkedin: "https://www.linkedin.com/in/mateocerna/",
@@ -523,25 +570,11 @@ const peopleByCategory = [
         image: matthewGraham,
       },
       {
-        name: "Matthew Oakland",
-        position: "",
-        linkedin: "",
-        major: "Industrial and Systems Engineering '25",
-        image: mattOakland,
-      },
-      {
         name: "Moses Monty",
         position: "",
         linkedin: "https://www.linkedin.com/in/moses-monty-4bb200175/",
         major: "Petroleum Engineering '22",
         image: MosesMonty,
-      },
-      {
-        name: "Nate Mathews",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/nathanielmathews/",
-        major: "Industrial & Systems Engineering '24",
-        image: nateMatthew,
       },
       {
         name: "Nick Bodenheimer",
@@ -572,13 +605,6 @@ const peopleByCategory = [
         image: patrick,
       },
       {
-        name: "Scott Trouy",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/scott-trouy/",
-        major: "Nuclear Engineering '23",
-        image: scottTrouy,
-      },
-      {
         name: "Sebastian Coronado",
         position: "",
         linkedin: "https://www.linkedin.com/in/sebastiancoronado/",
@@ -586,32 +612,11 @@ const peopleByCategory = [
         image: sebastianCoronado,
       },
       {
-        name: "Tyler Powell",
-        position: "",
-        linkedin: "",
-        major: "Architectural Engineering '24",
-        image: tylerPowell,
-      },
-      {
         name: "Tyler Woods",
         position: "",
         linkedin: "https://www.linkedin.com/in/tywoods505/",
         major: "Industrial Distribution '23",
         image: TylerWoods,
-      },
-      {
-        name: "Vinny LoBello",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/vincent-lobello-13345b21b/",
-        major: "Computer Science '24",
-        image: vinnyLoBello,
-      },
-      {
-        name: "Whitten Bowles",
-        position: "",
-        linkedin: "https://www.linkedin.com/in/whitten-bowles-1231821b1/",
-        major: "Petroleum Engineering '25",
-        image: whittenBowles,
       },
       {
         name: "Zach Podraza",
