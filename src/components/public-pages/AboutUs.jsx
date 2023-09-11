@@ -1,6 +1,6 @@
 import React from "react";
 
-import presidentHeadshot from "../../assets/img/2021headshots/rogstadhedshot.jpg";
+import presidentHeadshot from "../../assets/img/2022Headshots/glory.jpg";
 import Loyalty from "../../assets/img/Loyalty.png";
 import Leadership from "../../assets/img/Leadership.png";
 import Integrity from "../../assets/img/Integrity.png";
@@ -68,7 +68,7 @@ function AboutUs() {
           </p>
         </div>
       </section>
-      <section className="letter-container">
+      {/* <section className="letter-container">
         <h2 id="letter-title">A Letter From Our President</h2>
         <img
           src={presidentHeadshot}
@@ -125,9 +125,9 @@ function AboutUs() {
           Thanks and Gig 'em,
           <br />
           <br />
-          <i>Nicolas Rogstad</i>
+          <i>Glory Oluwole</i>
         </p>
-      </section>
+      </section> */}
     </div>
   );
 }
