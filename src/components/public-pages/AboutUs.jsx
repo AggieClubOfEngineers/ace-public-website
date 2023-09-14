@@ -97,21 +97,10 @@ function AboutUs() {
           of impact is what recognizes the Aggie Club of Engineers as premier
           along with the other juggernauts at Texas A&M University while still
           vividly setting ACE apart from any other organization on campus,
-          perhaps in the nation. Still, there's more.
-          <br />
-          <br />
-          This organization has grown to mean so much to me. Picture this, a
-          bald headed freshman in the Corps of Cadets with no outlet for social
-          interaction or professional expression, focused on one thing and thing
-          only; academics. Fast forward two years and I'm told about this
-          organization with a bunch of “cool engineers” and I apply, turning out
-          to be one of the greatest decisions of my life. The relationships I've
-          made that are sure to last a lifetime along with the immense growth
-          that I have personally experienced have been a small testament to what
-          this organization has to offer and every member is extremely committed
-          to giving back in currencies of effort and dedication so ACE continues
-          to be that vehicle to success for the future generations of Aggie
-          Engineers.
+          perhaps in the nation. Additionally, every member is extremely
+          committed to giving back in currencies of effort and dedication so
+          that ACE continues to be the vehicle to success for the future
+          generations of Aggie Engineers.
           <br />
           <br />
           In order for that to happen, we strive to be “elite” and not
@@ -119,8 +108,11 @@ function AboutUs() {
           university has to offer yet keeping the pathway wide open for many to
           realize their full potential in the organization. If this remotely
           sounds like you, please check out our admissions tab above, we'd love
-          to get to know you. For any questions regarding the organization or if
-          you would like to come speak to our members, please contact me at
+          to get to know you.
+          <br />
+          <br />
+          For any questions regarding the organization or if you would like to
+          come speak to our members, please contact me at
           tamuacepresident@gmail.com
           <br />
           <br />
