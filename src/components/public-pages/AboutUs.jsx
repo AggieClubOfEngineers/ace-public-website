@@ -68,7 +68,7 @@ function AboutUs() {
           </p>
         </div>
       </section>
-      {/* <section className="letter-container">
+      <section className="letter-container">
         <h2 id="letter-title">A Letter From Our President</h2>
         <img
           src={presidentHeadshot}
@@ -76,50 +76,52 @@ function AboutUs() {
           className="president-portrait"
         />
         <p className="letter-text">
-          &nbsp; &nbsp; The Aggie Club of Engineers started with a handful of
-          guys, looking to start something bigger than themselves. They had
-          worked through their first challenging years of engineering all while
-          being involved in some of the best fraternities and professional
-          organizations A&M has to offer. They were, by all stretches of the
-          word, successful. But they had realized one thing. For all the
-          prestige their organizations boasted, they just didn't bring engineers
-          together inside and outside of the classroom. They needed something
-          different.
+          &nbsp; &nbsp; The Aggie Club of Engineers was created long ago with
+          the vision of brotherhood, prestige, and all-around growth in mind.
+          Founded by a group of high-achieving individuals that were involved in
+          some of the most reputable organizations and fraternities here at A&M,
+          ACE has grown to be the perfect melting pot of socially proficient,
+          academically excellent, professionally distinguished and intentionally
+          driven qualities that every single one of our members possess.
+          However, it doesn't stop there.
           <br />
           <br />
-          &nbsp; &nbsp; Nine years later, ACE stands as an homage to our
-          founders' vision. We have joined the ranks of some of the premier
-          men's organizations on campus, but with a flavor all our own. We have
-          cultivated a culture that allows our members to develop in academics
-          and leadership, while offering the highest caliber professional
-          opportunities and social events. This is made possible by the amazing
-          diversity in our organization. Our members represent over a dozen
-          countries and come from every engineering discipline at Texas A&M. We
-          have Student Senators, Fish Camp Counselors, Muster Committee members,
-          Executives at fraternities and professional organizations, and members
-          of the Student Engineering Council. Each one of us br/ings a unique
-          experience and background and puts it toward one common goal: To
-          create a place for leaders to thrive.
+          Year in and year out, members of ACE experience growth exponentially
+          in every aspect of their lives which inevitably fosters progress in
+          the right direction for the organization as a whole. Growth in their
+          various fields of studies within the college of engineering, growth in
+          their pursuit of character development and leadership, growth in their
+          social prowess and abilities to connect with other people from
+          different backgrounds, and growth in their professional potential as
+          they gravitate on to the next chapter of their lives. This wide range
+          of impact is what recognizes the Aggie Club of Engineers as premier
+          along with the other juggernauts at Texas A&M University while still
+          vividly setting ACE apart from any other organization on campus,
+          perhaps in the nation. Still, there's more.
           <br />
           <br />
-          &nbsp; &nbsp;Personally, I cannot overstate the impact ACE has had in
-          developing me through college. It has given me friendships and
-          memories that will last the rest of my time on this Earth. Every
-          tailgate and every retreat, every formal and every meeting. Each one
-          has made me better than the day before. To be chosen by my best
-          friends to continue that mission for other young engineers is the
-          single greatest honor of my life.
+          This organization has grown to mean so much to me. Picture this, a
+          bald headed freshman in the Corps of Cadets with no outlet for social
+          interaction or professional expression, focused on one thing and thing
+          only; academics. Fast forward two years and I'm told about this
+          organization with a bunch of “cool engineers” and I apply, turning out
+          to be one of the greatest decisions of my life. The relationships I've
+          made that are sure to last a lifetime along with the immense growth
+          that I have personally experienced have been a small testament to what
+          this organization has to offer and every member is extremely committed
+          to giving back in currencies of effort and dedication so ACE continues
+          to be that vehicle to success for the future generations of Aggie
+          Engineers.
           <br />
           <br />
-          &nbsp; &nbsp;To be the best, we have to take the best natural born
-          leaders that Dwight Look has to offer. If you think you have what it
-          takes, please check out our admissions tab above. We'd love to get to
-          know you.
-          <br />
-          <br />
-          For any questions regarding the organization or if you would like to
-          come speak to our members, please contact me at
-          tamuacepresident@gmail.com.
+          In order for that to happen, we strive to be “elite” and not
+          “elitists”, constantly reaching for the best engineers this great
+          university has to offer yet keeping the pathway wide open for many to
+          realize their full potential in the organization. If this remotely
+          sounds like you, please check out our admissions tab above, we'd love
+          to get to know you. For any questions regarding the organization or if
+          you would like to come speak to our members, please contact me at
+          tamuacepresident@gmail.com
           <br />
           <br />
           Thanks and Gig 'em,
@@ -127,7 +129,7 @@ function AboutUs() {
           <br />
           <i>Glory Oluwole</i>
         </p>
-      </section> */}
+      </section>
     </div>
   );
 }
