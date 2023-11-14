@@ -258,4 +258,12 @@ a {
   .first-category.category-container {
     padding: 0;
   }
+
+  .person-image-container {
+    height: 150px; /* Set your desired fixed height */
+  }
+
+  .first-category .person-image-container {
+    height: 300px; /* Set your desired fixed height */
+  }
 }

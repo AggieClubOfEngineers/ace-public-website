@@ -62,7 +62,7 @@ const PublicView = () => {
             <Route path="/about-us" component={AboutUs} />
             <Route path="/service" component={Service} />
             <Route path="/membership" component={Membership} />
-            <Route path="/recruitment" component={Recruitment} />
+            {/* <Route path="/recruitment" component={Recruitment} /> */}
             <Route path="/contact-us" component={ContactUs} />
           </Switch>
         </main>

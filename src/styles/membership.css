@@ -44,6 +44,17 @@ h2 {
   height: 20px;
 }
 
+.person-image-container {
+  width: 100%; /* or your specific width */
+  height: 250px; /* Set your desired fixed height */
+  overflow: hidden; /* Hides the overflow (excess part of the image) */
+  display: inline-block; /* or flex, depending on your layout */
+}
+
+.first-category .person-image-container {
+  height: 300px; /* Set your desired fixed height */
+}
+
 .person-image {
   width: 100%;
   height: auto;

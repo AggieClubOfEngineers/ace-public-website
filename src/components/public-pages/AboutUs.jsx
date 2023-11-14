@@ -68,7 +68,7 @@ function AboutUs() {
           </p>
         </div>
       </section>
-      <section className="letter-container">
+      {/* <section className="letter-container">
         <h2 id="letter-title">A Letter From Our President</h2>
         <img
           src={presidentHeadshot}
@@ -121,7 +121,7 @@ function AboutUs() {
           <br />
           <i>Glory Oluwole</i>
         </p>
-      </section>
+      </section> */}
     </div>
   );
 }

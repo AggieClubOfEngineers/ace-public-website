@@ -6,4 +6,6 @@ export default defineConfig({
   externals: [/^\@material\-ui\/core\/.*/],
   plugins: [react()],
   base: '/',
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg', '**/*.JPG', '**/*.PNG', '**/*.SVG'],
+ 
 })

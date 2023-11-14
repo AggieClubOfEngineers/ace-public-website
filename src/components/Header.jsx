@@ -78,7 +78,7 @@ const Header = ({ setActiveTab }) => {
               to="/membership"
               onClick={() => setActiveTab("membership")}
             >
-              Members
+              Officers
             </Link>
           </li>
           <li className="nav-item">
@@ -90,7 +90,7 @@ const Header = ({ setActiveTab }) => {
               Contact
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               className="nav-link mx-2 nav-text"
               to="/recruitment"
@@ -98,7 +98,7 @@ const Header = ({ setActiveTab }) => {
             >
               Recruitment
             </Link>
-          </li>
+          </li> */}
         </ul>
       </ul>
 
@@ -137,7 +137,7 @@ const Header = ({ setActiveTab }) => {
               to="/membership"
               onClick={() => setActiveTab("membership")}
             >
-              Members
+              Officers
             </Link>
           </li>
           <li className="sidebar-nav-item">
@@ -149,7 +149,7 @@ const Header = ({ setActiveTab }) => {
               Contact
             </Link>
           </li>
-          <li className="sidebar-nav-item">
+          {/* <li className="sidebar-nav-item">
             <Link
               className="sidebar-nav-link"
               to="/recruitment"
@@ -157,7 +157,7 @@ const Header = ({ setActiveTab }) => {
             >
               Recruitment
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
