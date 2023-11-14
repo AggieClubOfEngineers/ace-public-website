@@ -73,7 +73,7 @@ import whittenBowles from "../../assets/img/2022Headshots/whittenBowles.jpg";
 import podrazaheadshot from "../../assets/img/2021Headshots/podrazaheadshot.jpg";
 
 import Glory_Oluwole from "../../assets/img/2023Headshots/Glory_Oluwole.JPG";
-import Nick_Dittemore from "../../assets/img/2023Headshots/Nick_Dittemore.JPG";
+import Nick_Dittemore from "../../assets/img/2023Headshots/Nick_Dittemore.jpg";
 import Brandon_Turnage from "../../assets/img/2023Headshots/Brandon_Turnage.JPG";
 import Connor_Gilliland from "../../assets/img/2023Headshots/Connor_Gilliland.JPG";
 import Jonathan_Kutsch from "../../assets/img/2023Headshots/Jon_Kutsch.JPG";
