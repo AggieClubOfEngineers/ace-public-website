@@ -143,13 +143,11 @@ const Membership = () => (
                   <h3 className="person-position">{person.position}</h3>
                 )}
               </div>
-              <div className="person-image-container">
-                <img
-                  src={person.image}
-                  alt={person.name}
-                  className="person-image"
-                />
-              </div>
+              <img
+                src={person.image}
+                alt={person.name}
+                className="person-image"
+              />
               <div className="person-info-bottom">
                 <h2 className="person-name">{person.name}</h2>
                 <h3 className="person-major">{person.major}</h3>
