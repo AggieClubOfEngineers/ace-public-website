@@ -18,7 +18,7 @@ function ContactUs() {
           <div className="position">
             <span className="position-title">President:</span>{" "}
             <a className="email" href="mailto:tamuacepresident@gmail.com">
-              Glory Oluwole
+              Nick Dittemore
             </a>
           </div>
           <div className="position">
@@ -44,7 +44,7 @@ function ContactUs() {
           <div className="position">
             <span className="position-title">Internal Vice President:</span>{" "}
             <a className="email" href="mailto:aceivp@gmail.com">
-              Nick Dittemore
+              Hudson Hurtig
             </a>
           </div>
           <div className="position">
