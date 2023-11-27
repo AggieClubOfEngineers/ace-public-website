@@ -5,8 +5,7 @@ import slide2 from "../../assets/img/2023Photos/bsb1.JPG";
 import slide3 from "../../assets/img/2023Photos/songfest.jpg";
 import slide4 from "../../assets/img/breck2021.png";
 import slide5 from "../../assets/img/2023Photos/misc2.jpg";
-import slide7 from "../../assets/img/cafexaceBoard.jpeg";
-import slide6 from "../../assets/img/FormalCorrected.png";
+import slide6 from "../../assets/img/cafexaceBoard.jpeg";
 
 import logo from "../../assets/img/logo.png";
 import nightBackground from "../../assets/img/BackgroundImages/NightZach.jpg";
@@ -19,7 +18,7 @@ import Carousel from "../util/Carousel";
 import "../../styles/home.css";
 
 function Home() {
-  const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7];
+  const images = [slide1, slide2, slide3, slide4, slide5, slide6];
   return (
     <div>
       <img id="home-logo" src={logo} alt="logo" />
