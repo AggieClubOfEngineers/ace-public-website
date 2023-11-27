@@ -1,6 +1,6 @@
 import React from "react";
 
-import presidentHeadshot from "../../assets/img/2022Headshots/glory.jpg";
+import presidentHeadshot from "../../assets/img/2023Headshots/Nick_Dittemore.jpg";
 import Loyalty from "../../assets/img/Loyalty.png";
 import Leadership from "../../assets/img/Leadership.png";
 import Integrity from "../../assets/img/Integrity.png";
@@ -68,7 +68,7 @@ function AboutUs() {
           </p>
         </div>
       </section>
-      {/* <section className="letter-container">
+      <section className="letter-container">
         <h2 id="letter-title">A Letter From Our President</h2>
         <img
           src={presidentHeadshot}
@@ -76,52 +76,66 @@ function AboutUs() {
           className="president-portrait"
         />
         <p className="letter-text">
-          &nbsp; &nbsp; The Aggie Club of Engineers was created long ago with
-          the vision of brotherhood, prestige, and all-around growth in mind.
-          Founded by a group of high-achieving individuals that were involved in
-          some of the most reputable organizations and fraternities here at A&M,
-          ACE has grown to be the perfect melting pot of socially proficient,
-          academically excellent, professionally distinguished and intentionally
-          driven qualities that every single one of our members possess.
-          However, it doesn't stop there.
+          Howdy!
           <br />
           <br />
-          Year in and year out, members of ACE experience growth exponentially
-          in every aspect of their lives which inevitably fosters progress in
-          the right direction for the organization as a whole. Growth in their
-          various fields of studies within the college of engineering, growth in
-          their pursuit of character development and leadership, growth in their
-          social prowess and abilities to connect with other people from
-          different backgrounds, and growth in their professional potential as
-          they gravitate on to the next chapter of their lives. This wide range
-          of impact is what recognizes the Aggie Club of Engineers as premier
-          along with the other juggernauts at Texas A&M University while still
-          vividly setting ACE apart from any other organization on campus,
-          perhaps in the nation. Additionally, every member is extremely
-          committed to giving back in currencies of effort and dedication so
-          that ACE continues to be the vehicle to success for the future
-          generations of Aggie Engineers.
+          My name is Nick Dittemore and I am beyond honored to serve as
+          President of the Aggie Club of Engineers (ACE) for the 2023-2024 year.
+          ACE is comprised of the most talented and intelligent engineering
+          students on campus and stands as a testament to the caliber of
+          individuals who choose to be a part of the Aggie family. We take great
+          pride in being a tight-knit community that not only excels
+          academically but also possesses a unique blend of social and
+          professional acumen. The Aggie Club of Engineers is not just an
+          organization; it is a family that fosters growth, camaraderie,
+          brotherhood, and a shared commitment to excellence.
           <br />
           <br />
-          In order for that to happen, we strive to be “elite” and not
-          “elitists”, constantly reaching for the best engineers this great
-          university has to offer yet keeping the pathway wide open for many to
-          realize their full potential in the organization. If this remotely
-          sounds like you, please check out our admissions tab above, we'd love
-          to get to know you.
+          Representing this prestigious group of Aggies is both a privilege and
+          a responsibility that I do not take lightly. It is truly an honor to
+          lead such an exceptional group of individuals who embody the spirit,
+          intellect, and ambition that define our beloved university. Each
+          member of our organization contributes to a legacy of success that
+          goes beyond the confines of our campus. The achievements of past and
+          current members serve as a source of inspiration, and I am confident
+          that the current generation of ACE members will continue to leave an
+          indelible mark on the world.
           <br />
           <br />
-          For any questions regarding the organization or if you would like to
-          come speak to our members, please contact me at
-          tamuacepresident@gmail.com
+          Our alumni have gone on to become industry leaders, innovators, and
+          trailblazers in their respective fields. Whether it's in cutting-edge
+          research, groundbreaking projects, or leadership roles within renowned
+          organizations, the Aggie Club of Engineers has a track record of
+          producing individuals who make a meaningful impact. It is this legacy
+          of success that motivates us to strive for greatness in everything we
+          do.
+          <br />
+          <br />
+          If you are an engineering student with a passion for excellence and a
+          drive to make a difference, we invite you to join our ranks. The Aggie
+          Club of Engineers is more than just a student organization; it is a
+          community that will support and empower you throughout your academic
+          journey and beyond.
+          <br />
+          <br />
+          Please reach out to us at{" "}
+          <a
+            href="mailto:tamuacepresident@gmail.com"
+            style={{ color: "black", textDecoration: "underline" }}
+          >
+            tamuacepresident@gmail.com
+          </a>{" "}
+          with any questions regarding ACE or our application process.
           <br />
           <br />
           Thanks and Gig 'em,
           <br />
           <br />
-          <i>Glory Oluwole</i>
+          Nick Dittemore
+          <br />
+          President, Aggie Club of Engineers
         </p>
-      </section> */}
+      </section>
     </div>
   );
 }

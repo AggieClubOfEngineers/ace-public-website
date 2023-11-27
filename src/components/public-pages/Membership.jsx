@@ -3,76 +3,13 @@ import { BrandLinkedin } from "tabler-icons-react";
 
 import "../../styles/membership.css";
 
-import glory from "../../assets/img/2022Headshots/glory.jpg";
-import nickDitt from "../../assets/img/2022Headshots/nickDitt.jpg";
-import brandonTurnage from "../../assets/img/2022Headshots/brandonTurnage.jpg";
-import connorGilliland from "../../assets/img/2022Headshots/connorGilliland.jpg";
-import JonathanKutsch from "../../assets/img/HeadshotsFall2020Compressed/JonathanKutsch.jpg";
-import drewRemington from "../../assets/img/2022Headshots/drewRemington.jpg";
-import amritNanda from "../../assets/img/2022Headshots/amritNanda.jpg";
-import andrewLin from "../../assets/img/2022Headshots/andrewLin.jpg";
 import Grant_Schoettlekotte from "../../assets/img/2022Headshots/grantShuttle.jpg";
-import jacobTech from "../../assets/img/2022Headshots/jacobTech.jpg";
 import Joey_Kacer from "../../assets/img/2022Headshots/joeyKacer.jpg";
-import jessHolbert from "../../assets/img/2022Headshots/jessHolbert.jpg";
-import josephValenta from "../../assets/img/2022Headshots/josephValenta.jpg";
-import nathanCasazza from "../../assets/img/2022Headshots/nathanCasazza.jpg";
-import prestonGreenwood from "../../assets/img/2022Headshots/prestonGreenwood.jpg";
-import sidVenk from "../../assets/img/2022Headshots/sidVenk.jpg";
-import andrewMarshall from "../../assets/img/2022Headshots/andrewMarshall.jpg";
-import hudsonHurtig from "../../assets/img/2022Headshots/hudsonHurtig.jpeg";
 import Lucas_Giammona from "../../assets/img/2022Headshots/lucasGiammona.jpg";
-import nils from "../../assets/img/2022Headshots/nils.jpg";
-import peytonW from "../../assets/img/2022Headshots/peytonW.jpg";
-import RyanRiddle from "../../assets/img/Additional_Headshots/RyanRiddle.jpg";
-import vanWilcox from "../../assets/img/2022Headshots/vanWilcox.jpg";
-import aidenPena from "../../assets/img/2022Headshots/aidenPena.jpg";
-import benBrod from "../../assets/img/2022Headshots/benBrod.jpg";
-import benWhite from "../../assets/img/2022Headshots/benWhite.jpg";
-import blazeMon from "../../assets/img/2022Headshots/blazeMon.jpg";
-import bradenHeadshot from "../../assets/img/2021Headshots/bradenHeadshot.jpg";
-import braydenRosello from "../../assets/img/2022Headshots/braydenRosello.jpg";
-import chaseAlbright from "../../assets/img/2022Headshots/chaseAlbright.jpg";
-import clement from "../../assets/img/2021Headshots/clement.jpg";
-import connorZuspan from "../../assets/img/2022Headshots/connorZuspan.jpg";
-import dakotaFaethke from "../../assets/img/2022Headshots/dakotaFaethke.jpg";
-import danielGarcia from "../../assets/img/2022Headshots/danielGarcia.jpg";
-import dohoonKim from "../../assets/img/2022Headshots/dohoonKim.jpg";
-import dylanBell from "../../assets/img/2022Headshots/dylanBell.jpg";
-import ericMcGon from "../../assets/img/2022Headshots/ericMcGon.jpg";
-import erickLemus from "../../assets/img/2022Headshots/erickLemus.jpg";
-import ethanBirdsall from "../../assets/img/2022Headshots/ethanBirdsall.jpg";
-import gerryRuiz from "../../assets/img/2022Headshots/gerryRuiz.jpg";
-import hunterAschen from "../../assets/img/2022Headshots/hunterAschen.jpg";
-import irvingSalinas from "../../assets/img/2022Headshots/irvingSalinas.jpg";
-import JacksonNorfolk from "../../assets/img/HeadshotsFall2020Compressed/JacksonNorfolk.jpg";
-import JonVanwagenen from "../../assets/img/2022Headshots/jonV.png";
-import juanNerio from "../../assets/img/2022Headshots/juanNerio.jpg";
-import justenPearl from "../../assets/img/2022Headshots/justenPearl.jpg";
-import kyleDessens from "../../assets/img/2022Headshots/kyleDessens.jpg";
-import lanceTorno from "../../assets/img/2022Headshots/lanceTorno.jpg";
-import laneT from "../../assets/img/2022Headshots/laneT.jpg";
-import lucasSwoyer from "../../assets/img/2022Headshots/lucasSwoyer.jpg";
-import lukeSciba from "../../assets/img/2022Headshots/lukeSciba.jpg";
 import Luke_Smith from "../../assets/img/2022Headshots/lukeSmith.jpg";
-import matteoCerna from "../../assets/img/2022Headshots/matteoCerna.jpg";
-import matthewGraham from "../../assets/img/2022Headshots/matthewGraham.jpg";
 import Matthew_Oakland from "../../assets/img/2022Headshots/mattOakland.jpg";
-import MosesMonty from "../../assets/img/HeadshotsFall2020Compressed/MosesMonty.jpg";
 import Nate_Mathews from "../../assets/img/2022Headshots/nateMatthew.jpg";
-import nickBod from "../../assets/img/2022Headshots/nickBod.jpg";
-import morenoheadshot from "../../assets/img/2021Headshots/morenoheadshot.jpg";
-import rogstadhedshot from "../../assets/img/2021Headshots/rogstadhedshot.jpg";
-import patrick from "../../assets/img/2021Headshots/patrick.jpg";
-import scottTrouy from "../../assets/img/2022Headshots/scottTrouy.jpg";
-import sebastianCoronado from "../../assets/img/2022Headshots/sebastianCoronado.jpg";
 import Tyler_Powell from "../../assets/img/2022Headshots/tylerPowell.jpg";
-import TylerWoods from "../../assets/img/HeadshotsFall2020Compressed/TylerWoods.jpg";
-import vinnyLoBello from "../../assets/img/2022Headshots/vinnyLoBello.jpg";
-import whittenBowles from "../../assets/img/2022Headshots/whittenBowles.jpg";
-import podrazaheadshot from "../../assets/img/2021Headshots/podrazaheadshot.jpg";
-
-import Glory_Oluwole from "../../assets/img/2023Headshots/Glory_Oluwole.JPG";
 import Nick_Dittemore from "../../assets/img/2023Headshots/Nick_Dittemore.jpg";
 import Brandon_Turnage from "../../assets/img/2023Headshots/Brandon_Turnage.JPG";
 import Connor_Gilliland from "../../assets/img/2023Headshots/Connor_Gilliland.JPG";
@@ -80,9 +17,7 @@ import Jonathan_Kutsch from "../../assets/img/2023Headshots/Jon_Kutsch.JPG";
 import Drew_Remington from "../../assets/img/2023Headshots/Drew_Remington.JPG";
 import Amrit_Nanda from "../../assets/img/2023Headshots/Amrit_Nanda.JPG";
 import Andrew_Lin from "../../assets/img/2023Headshots/Andrew_Lin.JPG";
-// import Grant_Schoettlekotte from "../../assets/img/2023Headshots/Grant_Schoettlekotte.JPG";
 import Jacob_Technik from "../../assets/img/2023Headshots/Jacob_Technik.JPG";
-// import Joey_Kacer from "../../assets/img/2023Headshots/Joey_Kacer.JPG";
 import Jess_Holbert from "../../assets/img/2023Headshots/Jess_Holbert.JPG";
 import Joseph_Valenta from "../../assets/img/2023Headshots/Joseph_Valenta.JPG";
 import Nathan_Casazza from "../../assets/img/2023Headshots/Nathan_Casazza.JPG";
@@ -90,16 +25,11 @@ import Preston_Greenwood from "../../assets/img/2023Headshots/Preston_Greenwood.
 import Sid_Venkatraman from "../../assets/img/2023Headshots/Sid_Venkatraman.jpeg";
 import Andrew_Marshall from "../../assets/img/2023Headshots/Andrew_Marshall.JPG";
 import Hudson_Hurtig from "../../assets/img/2023Headshots/Hudson_Hurtig.JPG";
-// import Lucas_Giammona from "../../assets/img/2023Headshots/Lucas_Giammona.JPG";
 import Nils_Ljung from "../../assets/img/2023Headshots/Nils_Ljung.JPG";
 import Peyton_Woytek from "../../assets/img/2023Headshots/Peyton_Woytek.JPG";
 import Ryan_Riddle from "../../assets/img/2023Headshots/Ryan_Riddle.JPG";
 import Van_Wilcox from "../../assets/img/2023Headshots/Van_Wilcox.JPG";
 import Vinny_LoBello from "../../assets/img/2023Headshots/Vinny_LoBello.JPG";
-// import Luke_Smith from "../../assets/img/2023Headshots/Luke_Smith.JPG";
-// import Nate_Mathews from "../../assets/img/2023Headshots/Nate_Mathews.JPG";
-// import Matthew_Oakland from "../../assets/img/2023Headshots/Matthew_Oakland.JPG";
-// import Tyler_Powell from "../../assets/img/2023Headshots/Tyler_Powell.JPG";
 import Juan_Nerio from "../../assets/img/2023Headshots/Juan_Nerio.JPG";
 import Whitten_Bowles from "../../assets/img/2023Headshots/Whitten_Bowles.JPG";
 import Scott_Trouy from "../../assets/img/2023Headshots/Scott_Trouy.JPG";
@@ -230,7 +160,7 @@ const peopleByCategory = [
         name: "Grant Schoettlekotte",
         position: "Recruitment Chair",
         linkedin: "",
-        major: "",
+        major: "Industrial Distribution '22",
         image: Grant_Schoettlekotte,
       },
       {
@@ -258,7 +188,7 @@ const peopleByCategory = [
         name: "Joseph Valenta",
         position: "Philanthropy Chair",
         linkedin: "",
-        major: "",
+        major: "Mechanical Engineering '25",
         image: Joseph_Valenta,
       },
       {
