@@ -82,3 +82,9 @@ hr {
   font-weight: bold;
   text-decoration: underline;
 }
+
+#service-carousel-container {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}

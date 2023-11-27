@@ -9,7 +9,14 @@ import BSBLogo from "../../assets/img/BSBBannerCrop.png";
 
 import "../../styles/service.css";
 
+import Carousel from "../util/Carousel";
+
+import slide1 from "../../assets/img/2023Photos/bsb1.JPG";
+import slide2 from "../../assets/img/2023Photos/service2.jpeg";
+import slide3 from "../../assets/img/2023Photos/service1.jpeg";
+
 function Service() {
+  const images = [slide1, slide2, slide3];
   return (
     <div className="service-content">
       <div className="service-container philanthropy-container">
@@ -111,6 +118,11 @@ function Service() {
         <div className="service-additional-content">
           <img id="bgc-img" src={BGCImage} />
         </div>
+        <hr className="full-size-divider" />
+      </div>
+
+      <div id="service-carousel-container">
+        <Carousel images={images} />
       </div>
     </div>
   );
