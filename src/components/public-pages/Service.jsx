@@ -14,9 +14,10 @@ import Carousel from "../util/Carousel";
 import slide1 from "../../assets/img/2023Photos/bsb1.JPG";
 import slide2 from "../../assets/img/2023Photos/service2.jpeg";
 import slide3 from "../../assets/img/2023Photos/service1.jpeg";
+import slide4 from "../../assets/img/2023Photos/bsb2.png";
 
 function Service() {
-  const images = [slide1, slide2, slide3];
+  const images = [slide1, slide2, slide4, slide3];
   return (
     <div className="service-content">
       <div className="service-container philanthropy-container">
