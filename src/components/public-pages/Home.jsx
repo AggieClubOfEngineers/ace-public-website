@@ -67,7 +67,7 @@ function Home() {
                 to raise money through a charity concert hosted at the Tap. More
                 details to come.
               </p>
-              <img className="highlight-image" src={slide3} />
+              <img className="highlight-image" src={slide2} />
             </div>
             <div className="highlight">
               <h3>Parents Weekend</h3>
