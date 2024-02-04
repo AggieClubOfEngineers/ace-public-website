@@ -20,6 +20,7 @@ import Andrew_Lin from "../../assets/img/2023Headshots/Andrew_Lin.JPG";
 import Jacob_Technik from "../../assets/img/2023Headshots/Jacob_Technik.JPG";
 import Jess_Holbert from "../../assets/img/2023Headshots/Jess_Holbert.JPG";
 import Joseph_Valenta from "../../assets/img/2023Headshots/Joseph_Valenta.JPG";
+import Joshua_Mayhugh from "../../assets/img/2023Headshots/Joshua_Mayhugh.JPG";
 import Nathan_Casazza from "../../assets/img/2023Headshots/Nathan_Casazza.JPG";
 import Preston_Greenwood from "../../assets/img/2023Headshots/Preston_Greenwood.JPG";
 import Sid_Venkatraman from "../../assets/img/2023Headshots/Sid_Venkatraman.jpeg";
@@ -33,6 +34,7 @@ import Vinny_LoBello from "../../assets/img/2023Headshots/Vinny_LoBello.JPG";
 import Juan_Nerio from "../../assets/img/2023Headshots/Juan_Nerio.JPG";
 import Whitten_Bowles from "../../assets/img/2023Headshots/Whitten_Bowles.JPG";
 import Scott_Trouy from "../../assets/img/2023Headshots/Scott_Trouy.JPG";
+import Eddie_Villegas from "../../assets/img/2023Headshots/Eddie_Villegas.JPG";
 
 const Membership = () => (
   <div className="membership-content">
@@ -150,6 +152,13 @@ const peopleByCategory = [
         image: Amrit_Nanda,
       },
       {
+        name: "Eddie Villegas",
+        position: "Corporate Chair",
+        linkedin: "https://www.linkedin.com/in/eddie-villegas-29431b253/",
+        major: "Electrical Engineering '25",
+        image: Eddie_Villegas,
+      },
+      {
         name: "Andrew Lin",
         position: "Recruitment Chair",
         linkedin: "https://www.linkedin.com/in/andrewlin27/",
@@ -192,11 +201,11 @@ const peopleByCategory = [
         image: Joseph_Valenta,
       },
       {
-        name: "Nathan Casazza",
+        name: "Joshua Mayhugh",
         position: "Webmaster",
-        linkedin: "https://www.linkedin.com/in/nathancasazza/",
-        major: "Computer Science '24",
-        image: Nathan_Casazza,
+        linkedin: "https://www.linkedin.com/in/joshua-mayhugh-36a764210/",
+        major: "Computer Science '25",
+        image: Joshua_Mayhugh,
       },
       {
         name: "Preston Greenwood",
