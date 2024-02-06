@@ -9,10 +9,10 @@ import slide6 from "../../assets/img/cafexaceBoard.jpeg";
 
 import logo from "../../assets/img/logo.png";
 import nightBackground from "../../assets/img/BackgroundImages/NightZach.jpg";
-
+import videoSrc from "../../assets/videos/ACE_video.mp4";
 import spikeball from "../../assets/img/SpikeBall.png";
 import parents from "../../assets/img/momsday_2019.jpg";
-
+import poster from "../../assets/img/logo.jpg";
 import Carousel from "../util/Carousel";
 
 import "../../styles/home.css";
@@ -30,6 +30,12 @@ function Home() {
             <div className="welcome-text">
               <h2 id="welcome-title">Who Are We?</h2>
               <hr />
+              <div className="welcome-video">
+                <video controls poster={poster}>
+                  <source src={videoSrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
               <p>
                 Aggie Club of Engineers is a social, service, and leadership
                 organization strongly rooted in academics. ACE is based on the

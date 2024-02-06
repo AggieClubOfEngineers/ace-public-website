@@ -78,7 +78,7 @@ const Header = ({ setActiveTab }) => {
               to="/membership"
               onClick={() => setActiveTab("membership")}
             >
-              Officers
+              Members
             </Link>
           </li>
           <li className="nav-item">
