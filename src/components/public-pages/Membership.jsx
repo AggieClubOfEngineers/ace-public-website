@@ -140,7 +140,8 @@ const Membership = () => (
               />
               <div className="person-info-bottom">
                 <h2 className="person-name">{person.name}</h2>
-                <h3 className="person-major">{person.major}</h3>
+                {person.major && <h3 className="person-major">{person.major}</h3>}
+             
               </div>
             </div>
           ))}

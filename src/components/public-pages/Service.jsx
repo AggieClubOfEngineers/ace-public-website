@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CampHopeBanner from "../../assets/img/CampHopeLogo.png";
 import S4HImage from "../../assets/img/swingingForHopeBoys.png";
 import S4HLogo from "../../assets/img/swingingForHopeLogoSquare.png";
@@ -18,13 +18,29 @@ import slide4 from "../../assets/img/2023Photos/bsb2.png";
 
 function Service() {
   const images = [slide1, slide2, slide4, slide3];
+  useEffect(() => {
+    // Dynamically load the Donorbox script
+    const script = document.createElement("script");
+    script.src = "https://donorbox.org/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup the script when the component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div className="service-content">
       <div className="service-container philanthropy-container">
         <h2 className="service-title">Our Philanthropy</h2>
         <hr className="partial-divider" />
         <div>
-          <img class="camphope-banner" src={CampHopeBanner} alt="Camp Hope" />
+          <img
+            className="camphope-banner"
+            src={CampHopeBanner}
+            alt="Camp Hope"
+          />
         </div>
         <p className="service-description camp-hope-content">
           From it's inception, ACE has been committed to giving back to its
@@ -49,10 +65,19 @@ function Service() {
           </a>
           .
         </p>
-        <p>
-          We are proud to say we raised over $10,000 for Camp Hope in the 22-23
-          year!
-        </p>
+        <div className="donation-box-container">
+          <iframe
+            className="donation-box"
+            src="https://donorbox.org/embed/swinging-for-hope?default_interval=o"
+            height="700px"
+            width="100%"
+            style={{ maxWidth: "500px", minWidth: "250px" }}
+          ></iframe>
+        </div>
+        
+         
+       
+        
         <hr className="full-size-divider" />
       </div>
       <div className="service-container">
@@ -121,7 +146,6 @@ function Service() {
         </div>
         <hr className="full-size-divider" />
       </div>
-
       <div id="service-carousel-container">
         <Carousel images={images} />
       </div>
