@@ -25,9 +25,15 @@ function Service() {
     script.async = true;
     document.body.appendChild(script);
 
+    const eventScript = document.createElement("script");
+    eventScript.src = "https://donorbox.org/embed_event_widget.js";
+    eventScript.async = true;
+    document.body.appendChild(eventScript);
+
     return () => {
       // Cleanup the script when the component unmounts
       document.body.removeChild(script);
+      document.body.removeChild(eventScript);
     };
   }, []);
   return (
@@ -65,6 +71,16 @@ function Service() {
           </a>
           .
         </p>
+
+        <div className="donation-box-container">
+          <iframe
+              className="donation-box"
+              src="https://donorbox.org/embed_event/566153?default_interval=o"
+              height="700px"
+              width="100%"
+              style={{ maxWidth: "690px", minWidth: "250px" }}
+            ></iframe>
+        </div>
         <div className="donation-box-container">
           <iframe
             className="donation-box"
@@ -74,6 +90,7 @@ function Service() {
             style={{ maxWidth: "500px", minWidth: "250px" }}
           ></iframe>
         </div>
+        
         
          
        

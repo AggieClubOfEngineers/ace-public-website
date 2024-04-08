@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg', '**/*.JPG', '**/*.PNG', '**/*.SVG'],
- 
+  
 })

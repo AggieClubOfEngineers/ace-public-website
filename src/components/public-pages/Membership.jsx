@@ -325,7 +325,7 @@ const peopleByCategory = [
       {
         name: "Van Wilcox",
         position: "Special Events Chair",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/van-wilcox-a3954b290/",
         major: "Industrial Distribution '26",
         image: Van_Wilcox,
       },
