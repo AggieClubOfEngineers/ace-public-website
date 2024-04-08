@@ -168,6 +168,14 @@ const Header = ({ setActiveTab }) => {
       >
         MEMBER PORTAL
       </a>
+      <a
+        className="nav-text"
+        id="member-portal-button"
+        href="https://donorbox.org/embed_event/566153?default_interval=o"
+      >
+        
+        Swinging For Hope Tickets
+      </a>
     </header>
   );
 };
