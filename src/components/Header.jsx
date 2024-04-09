@@ -171,7 +171,7 @@ const Header = ({ setActiveTab }) => {
       <a
         className="nav-text"
         id="member-portal-button"
-        href="https://donorbox.org/embed_event/566153?default_interval=o"
+        href="https://donorbox.org/events/566153"
       >
         
         Swinging For Hope Tickets
