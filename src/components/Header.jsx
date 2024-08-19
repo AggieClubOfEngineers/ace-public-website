@@ -176,6 +176,14 @@ const Header = ({ setActiveTab }) => {
         
         Swinging For Hope Tickets
       </a>
+      <a
+        className="nav-text"
+        id="member-portal-button"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd-LJbP0ZsmXnVR3d7gFtkf2I0lJ5KWUSrAPp3CSPeo0-AUvA/viewform"
+      >
+        
+        APPLY HERE
+      </a>
     </header>
   );
 };
