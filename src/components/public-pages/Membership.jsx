@@ -208,7 +208,7 @@ const peopleByCategory = [
         position: "Academic Chair",
         linkedin: "https://www.linkedin.com/in/amrit-nanda/",
         major: "Industrial Engineering '26",
-        image: Amrit_Nanda,
+        image: Mason_Joyner,
       },
       {
         name: "Eddie Villegas",
@@ -236,7 +236,7 @@ const peopleByCategory = [
         position: "Quartermaster",
         linkedin: "https://www.linkedin.com/in/reedhuffmyer2023/",
         major: "Petroleum Engineering '25",
-        image: Jacob_Technik,
+        image: Reed_Huffmyer,
       },
       {
         name: "Alan Marini",
@@ -407,10 +407,6 @@ const peopleByCategory = [
         image: Parker_Briney,
       },
       {
-        name: "Alan Marini",
-        image: Alan_Marini,
-      },
-      {
         name: "Nick Mozyrsky",
         image: Nick_Mozyrsky,
       },
@@ -423,28 +419,8 @@ const peopleByCategory = [
         image: Matthew_Graham,
       },
       {
-        name: "Jacob Hargreaves",
-        image: Jacob_Hargreaves,
-      },
-      {
-        name: "Zach Podraza",
-        image: Zach_Podraza,
-      },
-      {
-        name: "Lucas Swoyer",
-        image: Lucas_Swoyer,
-      },
-      {
         name: "Ben White",
         image: Ben_White,
-      },
-      {
-        name: "Erick Lemus",
-        image: Erick_Lemus,
-      },
-      {
-        name: "Nate Mathews",
-        image: Nate_Mathews,
       },
       {
         name: "Justen Pearl",
@@ -463,40 +439,12 @@ const peopleByCategory = [
         image: Calvin_Turrell,
       },
       {
-        name: "Connor Dunn",
-        image: Connor_Dunn,
-      },
-      {
-        name: "Brandon Zhao",
-        image: Brandon_Zhao,
-      },
-      {
         name: "Alejandro Velasco",
         image: Alejandro_Velasco,
       },
       {
-        name: "Landon Miller",
-        image: Landon_Miller,
-      },
-      {
-        name: "Nic Rogstad",
-        image: Nic_Rogstad,
-      },
-      {
         name: "Grant Ward",
         image: Grant_Ward,
-      },
-      {
-        name: "Juan Nerio",
-        image: Juan_Nerio,
-      },
-      {
-        name: "Nick Caso",
-        image: Nick_Caso,
-      },
-      {
-        name: "Nick Moreno",
-        image: Nick_Moreno,
       },
       {
         name: "Matthew Oakland",
@@ -519,10 +467,6 @@ const peopleByCategory = [
         image: Jon_Kutsch,
       },
       {
-        name: "Eric McGonagle",
-        image: Eric_McGonagle,
-      },
-      {
         name: "Zach Iacobucci",
         image: Zach_Iacobucci,
       },
@@ -533,23 +477,6 @@ const peopleByCategory = [
       {
         name: "Micaiah Wood",
         image: Micaiah_Wood,
-      },
-      {
-        name: "Tyler Powell",
-        image: Tyler_Powell,
-      },
-      {
-        name: "Jaden Banze",
-        image: Jaden_Banze,
-      },
-
-      {
-        name: "Jackson David",
-        image: Jackson_David,
-      },
-      {
-        name: "Manuel PanDavilla",
-        image: Manuel_PanDavilla,
       },
       {
         name: "Luke Sciba",
@@ -568,10 +495,6 @@ const peopleByCategory = [
         image: Chad_Cordova,
       },
       {
-        name: "Mason Joyner",
-        image: Mason_Joyner,
-      },
-      {
         name: "Juan Ardila",
         image: Juan_Ardila,
       },
@@ -584,20 +507,12 @@ const peopleByCategory = [
         image: Kyle_Dessens,
       },
       {
-        name: "Julian Pollina",
-        image: Julian_Pollina,
-      },
-      {
         name: "Ryan Ozelton",
         image: Ryan_Ozelton,
       },
       {
         name: "Luis Calvo Gerstner",
         image: Luis_Calvo_Gerstner,
-      },
-      {
-        name: "John Hayes",
-        image: John_Hayes,
       },
       {
         name: "Damon Banduk",
@@ -621,20 +536,12 @@ const peopleByCategory = [
         image: Whitten_Bowles,
       },
       {
-        name: "Ben Brod",
-        image: Ben_Brod,
-      },
-      {
         name: "Aidan Pena",
         image: Aidan_Pena,
       },
       {
         name: "Chase Albright",
         image: Chase_Albright,
-      },
-      {
-        name: "Reed Huffmyer",
-        image: Reed_Huffmyer,
       },
       {
         name: "Mark Thiele",
@@ -644,7 +551,6 @@ const peopleByCategory = [
         name: "Gerardo Ruiz",
         image: Gerardo_Ruiz,
       },
-
       {
         name: "Jackson Owen",
         image: Jackson_Owen,
@@ -657,6 +563,30 @@ const peopleByCategory = [
         name: "Nick Bodenheimer",
         image: Nick_Bodenheimer,
       },
+      {
+        name: "Hudson Hurtig",
+        image: Hudson_Hurtig,
+      },
+      {
+        name: "Andrew Lin",
+        image: Andrew_Lin,
+      },
+      {
+        name: "Joseph Valenta",
+        image: Joseph_Valenta,
+      },
+      {
+        name: "Joshua Mayhugh",
+        image: Joshua_Mayhugh,
+      },
+      {
+        name: "Peyton Woytek",
+        image: Peyton_Woytek,
+      },
+      {
+        name: "Van Wilcox",
+        image: Van_Wilcox,
+      }
     ],
   },
 ];
