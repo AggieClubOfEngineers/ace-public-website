@@ -90,7 +90,7 @@ import Jacob_Hargreaves from "../../assets/img/2023Headshots/Jacob_Hargreaves.JP
 import Chase_Albright from "../../assets/img/2022Headshots/chaseAlbright.JPG";
 import Mason_Joyner from "../../assets/img/2023Headshots/Mason_Joyner.JPG";
 import Jake_Segers from "../../assets/img/2023Headshots/Jake_Segars.JPG";
-import Manuel_PanDavilla from "../../assets/img/2023Headshots/Manuel_PanDavila.JPG";
+import Manuel_PanDavila from "../../assets/img/2023Headshots/Manuel_PanDavila.JPG";
 import Ben_Brod from "../../assets/img/2022Headshots/benBrod.JPG";
 const Membership = () => (
   <div className="membership-content">
@@ -187,14 +187,14 @@ const peopleByCategory = [
       {
         name: "John Hayes",
         position: "Treasurer",
-        linkedin: "https://www.linkedin.com/in/jonathan-kutsch/",
+        linkedin: "https://www.linkedin.com/in/john-hayes-547403256/",
         major: "Industrial Engineering'26 & MS Finance '27",
         image: John_Hayes,
       },
       {
         name: "Zach Podraza",
         position: "Member at Large",
-        linkedin: "https://www.linkedin.com/in/drewremington/",
+        linkedin: "https://www.linkedin.com/in/zachary-podraza-9b318620b/",
         major: "Industrial Distribution '24",
         image: Zach_Podraza,
       },
@@ -206,7 +206,7 @@ const peopleByCategory = [
       {
         name: "Mason Joyner",
         position: "Academic Chair",
-        linkedin: "https://www.linkedin.com/in/amrit-nanda/",
+        linkedin: "https://www.linkedin.com/in/mason-joyner/",
         major: "Industrial Engineering '26",
         image: Mason_Joyner,
       },
@@ -241,8 +241,8 @@ const peopleByCategory = [
       {
         name: "Alan Marini",
         position: "Family Chair",
-        linkedin: "https://www.linkedin.com/in/anton-kacer-2386701b6/",
-        major: "Electrical & Electronics Engineering '24",
+        linkedin: "https://www.linkedin.com/in/alan-marini-a42a6b283/",
+        major: "Electrical Engineering '26",
         image: Alan_Marini,
       },
       {
@@ -256,7 +256,7 @@ const peopleByCategory = [
         name: "Landon Miller",
         position: "Philanthropy Chair",
         linkedin: "",
-        major: "Mechanical Engineering '25",
+        major: "Mechanical Engineering '27",
         image: Landon_Miller,
       },
       {
@@ -269,16 +269,15 @@ const peopleByCategory = [
       {
         name: "Julian Pollina",
         position: "Athletics Chair",
-        linkedin: "https://www.linkedin.com/in/preston-j-greenwood/",
-        major: "Multidisciplinary Engineering '25",
+        linkedin: "https://www.linkedin.com/in/julian-pollina-71b2902b1/",
+        major: "Industrial Distribution '26",
         image: Julian_Pollina,
       },
       {
         name: "Brandon Zhao",
         position: "Service Chair",
-        linkedin:
-          "https://www.linkedin.com/in/siddharth-venkatraman-b8582a1b4/",
-        major: "Computer Science '24",
+        linkedin: "https://www.linkedin.com/in/brandonzhao13/",
+        major: "Biomedical Engineering '26",
         image: Brandon_Zhao,
       },
     ],
@@ -289,52 +288,52 @@ const peopleByCategory = [
       {
         name: "Connor Dunn",
         position: "Songfest Chair",
-        linkedin: "https://www.linkedin.com/in/andrew-marshall-559566256/",
-        major: "Aerospace Engineering '26",
+        linkedin: "https://www.linkedin.com/in/connordunn11/",
+        major: "Biomedical Engineering '26",
         image: Connor_Dunn,
       },
 
       {
         name: "Jackson David",
         position: "Tailgate Chair",
-        linkedin: "https://www.linkedin.com/in/lucas-giammona-340457230/",
-        major: "Mechanical Engineering '25",
+        linkedin: "",
+        major: "Chemical Engineering '25",
         image: Jackson_David,
       },
       {
         name: "Lucas Giammona",
         position: "Social Chair",
-        linkedin: "https://www.linkedin.com/in/nils-ljung-909771196/",
-        major: "Industrial Distribution '23",
+        linkedin: "https://www.linkedin.com/in/lucas-giammona-340457230/",
+        major: "Mechanical Engineering '25",
         image: Lucas_Giammona,
       },
       {
         name: "Jacob Hargreaves",
         position: "Public Relations Chair",
-        linkedin: "https://www.linkedin.com/in/peyton-woytek-938ba91b9/",
-        major: "Aerospace Engineering '24",
+        linkedin: "https://www.linkedin.com/in/jacob-hargreaves-89035028a/",
+        major: "Mechanical Engineering '26",
         image: Jacob_Hargreaves,
       },
       {
         name: "Juan Nerio",
         position: "Alumni Chair",
-        linkedin: "https://www.linkedin.com/in/ryan-riddle/",
-        major: "Civil Engineering '23 & MS Finance '24",
+        linkedin: "https://www.linkedin.com/in/juannerioiii/",
+        major: "Civil Engineering",
         image: Juan_Nerio,
       },
       {
         name: "Preston Greenwood",
         position: "Special Events Chair",
-        linkedin: "https://www.linkedin.com/in/van-wilcox-a3954b290/",
-        major: "Industrial Distribution '26",
+        linkedin: "https://www.linkedin.com/in/preston-j-greenwood/",
+        major: "Multidisc Engineering Tech '25",
         image: Preston_Greenwood,
       },
       {
-        name: "Manuel PanDavilla",
+        name: "Manuel PanDavila",
         position: "Social Media Chair",
-        linkedin: "https://www.linkedin.com/in/jack-bridges-69b107246/",
-        major: "Industrial Distribution '25",
-        image: Manuel_PanDavilla,
+        linkedin: "https://www.linkedin.com/in/manuel-j-pandavila-505879274/",
+        major: "Materials Science & Engr '25",
+        image: Manuel_PanDavila,
       },
     ],
   },
