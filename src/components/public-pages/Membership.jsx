@@ -90,7 +90,7 @@ import Jacob_Hargreaves from "../../assets/img/2023Headshots/Jacob_Hargreaves.JP
 import Chase_Albright from "../../assets/img/2022Headshots/chaseAlbright.JPG";
 import Mason_Joyner from "../../assets/img/2023Headshots/Mason_Joyner.JPG";
 import Jake_Segers from "../../assets/img/2023Headshots/Jake_Segars.JPG";
-import Manuel_PanDavilla from "../../assets/img/2023Headshots/Manuel_PanDavila.JPG";
+import Manuel_PanDavila from "../../assets/img/2023Headshots/Manuel_PanDavila.JPG";
 import Ben_Brod from "../../assets/img/2022Headshots/benBrod.JPG";
 const Membership = () => (
   <div className="membership-content">
@@ -156,47 +156,47 @@ const peopleByCategory = [
     title: "Executive Staff",
     people: [
       {
-        name: "Nick Dittemore",
-        position: "President",
-        linkedin: "https://www.linkedin.com/in/nicholas-dittemore-7875901a6/",
-        major: "Industrial Distribution '23",
-        image: Nick_Dittemore,
-      },
-
-      {
-        name: "Hudson Hurtig",
-        position: "Internal VP",
-        linkedin: "https://www.linkedin.com/in/hudson-hurtig-2143a51ab/",
-        major: "Computer Science '26",
-        image: Hudson_Hurtig,
-      },
-      {
         name: "Brandon Turnage",
-        position: "External VP",
+        position: "President",
         linkedin: "https://www.linkedin.com/in/brandon-turnage-a5ab8222b/",
         major: "Civil Engineering '25",
         image: Brandon_Turnage,
       },
+
       {
-        name: "Connor Gilliland",
+        name: "Jess Holbert",
+        position: "Internal VP",
+        linkedin: "https://www.linkedin.com/in/jess-holbert-071b19161/",
+        major: "Mechanical Engineering '24",
+        image: Jess_Holbert,
+      },
+      {
+        name: "Jacob Technik",
+        position: "External VP",
+        linkedin: "https://www.linkedin.com/in/jacob-technik-565a18239/",
+        major: "Industrial & Systems '26",
+        image: Jacob_Technik,
+      },
+      {
+        name: "Jack Bridges",
         position: "Secretary",
-        linkedin: "https://www.linkedin.com/in/connor-g-ab42b1210/",
-        major: "Mechanical Engineering '24",
-        image: Connor_Gilliland,
+        linkedin: "https://www.linkedin.com/in/jack-bridges-69b107246/",
+        major: "Industrial Distribution '25",
+        image: Jack_Bridges,
       },
       {
-        name: "Jonathan Kutsch",
+        name: "John Hayes",
         position: "Treasurer",
-        linkedin: "https://www.linkedin.com/in/jonathan-kutsch/",
-        major: "Computer Science '24 & MS Finance '24",
-        image: Jonathan_Kutsch,
+        linkedin: "https://www.linkedin.com/in/john-hayes-547403256/",
+        major: "Industrial Engineering'26 & MS Finance '27",
+        image: John_Hayes,
       },
       {
-        name: "Drew Remington",
+        name: "Zach Podraza",
         position: "Member at Large",
-        linkedin: "https://www.linkedin.com/in/drewremington/",
-        major: "Mechanical Engineering '24",
-        image: Drew_Remington,
+        linkedin: "https://www.linkedin.com/in/zachary-podraza-9b318620b/",
+        major: "Industrial Distribution '24",
+        image: Zach_Podraza,
       },
     ],
   },
@@ -204,11 +204,11 @@ const peopleByCategory = [
     title: "Internal Cabinet",
     people: [
       {
-        name: "Amrit Nanda",
+        name: "Mason Joyner",
         position: "Academic Chair",
-        linkedin: "https://www.linkedin.com/in/amrit-nanda/",
-        major: "Electrical Engineering '24",
-        image: Amrit_Nanda,
+        linkedin: "https://www.linkedin.com/in/mason-joyner/",
+        major: "Industrial Engineering '26",
+        image: Mason_Joyner,
       },
       {
         name: "Eddie Villegas",
@@ -218,68 +218,67 @@ const peopleByCategory = [
         image: Eddie_Villegas,
       },
       {
-        name: "Andrew Lin",
+        name: "Nick Caso",
         position: "Recruitment Chair",
-        linkedin: "https://www.linkedin.com/in/andrewlin27/",
-        major: "Computer Science '25",
-        image: Andrew_Lin,
+        linkedin: "https://www.linkedin.com/in/nicholas-caso/",
+        major: "Electrical Engineering & MS Finance '24",
+        image: Nick_Caso,
       },
       {
-        name: "Grant Schoettlekotte",
+        name: "Nate Mathews",
         position: "Recruitment Chair",
-        linkedin: "",
-        major: "Industrial Distribution '22",
-        image: Grant_Schoettlekotte,
+        linkedin: "https://www.linkedin.com/in/nathanielmathews/",
+        major: "Industrial Engineering '24",
+        image: Nate_Mathews,
       },
       {
-        name: "Jacob Technik",
+        name: "Reed Huffmyer",
         position: "Quartermaster",
-        linkedin: "https://www.linkedin.com/in/jacob-technik-565a18239/",
-        major: "Industrial & Systems '26",
-        image: Jacob_Technik,
+        linkedin: "https://www.linkedin.com/in/reedhuffmyer2023/",
+        major: "Petroleum Engineering '25",
+        image: Reed_Huffmyer,
       },
       {
-        name: "Joey Kacer",
+        name: "Alan Marini",
         position: "Family Chair",
-        linkedin: "https://www.linkedin.com/in/anton-kacer-2386701b6/",
-        major: "Electrical & Electronics Engineering '24",
-        image: Joey_Kacer,
+        linkedin: "https://www.linkedin.com/in/alan-marini-a42a6b283/",
+        major: "Electrical Engineering '26",
+        image: Alan_Marini,
       },
       {
-        name: "Jess Holbert",
+        name: "Andrew Marshall",
         position: "Judicial Chair",
-        linkedin: "https://www.linkedin.com/in/jess-holbert-071b19161/",
-        major: "Mechanical Engineering '24",
-        image: Jess_Holbert,
+        linkedin: "https://www.linkedin.com/in/andrew-marshall-559566256/",
+        major: "Aerospace Engineering '26",
+        image: Andrew_Marshall,
       },
       {
-        name: "Joseph Valenta",
+        name: "Landon Miller",
         position: "Philanthropy Chair",
         linkedin: "",
-        major: "Mechanical Engineering '25",
-        image: Joseph_Valenta,
+        major: "Mechanical Engineering '27",
+        image: Landon_Miller,
       },
       {
-        name: "Joshua Mayhugh",
+        name: "Eric McGonagle",
         position: "Webmaster",
-        linkedin: "https://www.linkedin.com/in/joshua-mayhugh-36a764210/",
+        linkedin: "https://www.linkedin.com/in/eric-mcgonagle/",
         major: "Computer Science '25",
-        image: Joshua_Mayhugh,
+        image: Eric_McGonagle,
       },
       {
-        name: "Preston Greenwood",
+        name: "Julian Pollina",
         position: "Athletics Chair",
-        linkedin: "https://www.linkedin.com/in/preston-j-greenwood/",
-        major: "Multidisciplinary Engineering '25",
-        image: Preston_Greenwood,
+        linkedin: "https://www.linkedin.com/in/julian-pollina-71b2902b1/",
+        major: "Industrial Distribution '26",
+        image: Julian_Pollina,
       },
       {
-        name: "Sid Venkatraman",
+        name: "Brandon Zhao",
         position: "Service Chair",
-        linkedin:
-          "https://www.linkedin.com/in/siddharth-venkatraman-b8582a1b4/",
-        major: "Computer Science '24",
-        image: Sid_Venkatraman,
+        linkedin: "https://www.linkedin.com/in/brandonzhao13/",
+        major: "Biomedical Engineering '26",
+        image: Brandon_Zhao,
       },
     ],
   },
@@ -287,54 +286,54 @@ const peopleByCategory = [
     title: "External Cabinet",
     people: [
       {
-        name: "Andrew Marshall",
+        name: "Connor Dunn",
         position: "Songfest Chair",
-        linkedin: "https://www.linkedin.com/in/andrew-marshall-559566256/",
-        major: "Aerospace Engineering '26",
-        image: Andrew_Marshall,
+        linkedin: "https://www.linkedin.com/in/connordunn11/",
+        major: "Biomedical Engineering '26",
+        image: Connor_Dunn,
       },
 
       {
-        name: "Lucas Giammona",
+        name: "Jackson David",
         position: "Tailgate Chair",
+        linkedin: "",
+        major: "Chemical Engineering '25",
+        image: Jackson_David,
+      },
+      {
+        name: "Lucas Giammona",
+        position: "Social Chair",
         linkedin: "https://www.linkedin.com/in/lucas-giammona-340457230/",
         major: "Mechanical Engineering '25",
         image: Lucas_Giammona,
       },
       {
-        name: "Nils Ljung",
-        position: "Social Chair",
-        linkedin: "https://www.linkedin.com/in/nils-ljung-909771196/",
-        major: "Industrial Distribution '23",
-        image: Nils_Ljung,
-      },
-      {
-        name: "Peyton Woytek",
+        name: "Jacob Hargreaves",
         position: "Public Relations Chair",
-        linkedin: "https://www.linkedin.com/in/peyton-woytek-938ba91b9/",
-        major: "Aerospace Engineering '24",
-        image: Peyton_Woytek,
+        linkedin: "https://www.linkedin.com/in/jacob-hargreaves-89035028a/",
+        major: "Mechanical Engineering '26",
+        image: Jacob_Hargreaves,
       },
       {
-        name: "Ryan Riddle",
+        name: "Juan Nerio",
         position: "Alumni Chair",
-        linkedin: "https://www.linkedin.com/in/ryan-riddle/",
-        major: "Civil Engineering '23 & MS Finance '24",
-        image: Ryan_Riddle,
+        linkedin: "https://www.linkedin.com/in/juannerioiii/",
+        major: "Civil Engineering",
+        image: Juan_Nerio,
       },
       {
-        name: "Van Wilcox",
+        name: "Preston Greenwood",
         position: "Special Events Chair",
-        linkedin: "https://www.linkedin.com/in/van-wilcox-a3954b290/",
-        major: "Industrial Distribution '26",
-        image: Van_Wilcox,
+        linkedin: "https://www.linkedin.com/in/preston-j-greenwood/",
+        major: "Multidisc Engineering Tech '25",
+        image: Preston_Greenwood,
       },
       {
-        name: "Jack Bridges",
+        name: "Manuel PanDavila",
         position: "Social Media Chair",
-        linkedin: "https://www.linkedin.com/in/jack-bridges-69b107246/",
-        major: "Industrial Distribution '25",
-        image: Jack_Bridges,
+        linkedin: "https://www.linkedin.com/in/manuel-j-pandavila-505879274/",
+        major: "Materials Science & Engr '25",
+        image: Manuel_PanDavila,
       },
     ],
   },
@@ -407,10 +406,6 @@ const peopleByCategory = [
         image: Parker_Briney,
       },
       {
-        name: "Alan Marini",
-        image: Alan_Marini,
-      },
-      {
         name: "Nick Mozyrsky",
         image: Nick_Mozyrsky,
       },
@@ -423,28 +418,8 @@ const peopleByCategory = [
         image: Matthew_Graham,
       },
       {
-        name: "Jacob Hargreaves",
-        image: Jacob_Hargreaves,
-      },
-      {
-        name: "Zach Podraza",
-        image: Zach_Podraza,
-      },
-      {
-        name: "Lucas Swoyer",
-        image: Lucas_Swoyer,
-      },
-      {
         name: "Ben White",
         image: Ben_White,
-      },
-      {
-        name: "Erick Lemus",
-        image: Erick_Lemus,
-      },
-      {
-        name: "Nate Mathews",
-        image: Nate_Mathews,
       },
       {
         name: "Justen Pearl",
@@ -463,40 +438,12 @@ const peopleByCategory = [
         image: Calvin_Turrell,
       },
       {
-        name: "Connor Dunn",
-        image: Connor_Dunn,
-      },
-      {
-        name: "Brandon Zhao",
-        image: Brandon_Zhao,
-      },
-      {
         name: "Alejandro Velasco",
         image: Alejandro_Velasco,
       },
       {
-        name: "Landon Miller",
-        image: Landon_Miller,
-      },
-      {
-        name: "Nic Rogstad",
-        image: Nic_Rogstad,
-      },
-      {
         name: "Grant Ward",
         image: Grant_Ward,
-      },
-      {
-        name: "Juan Nerio",
-        image: Juan_Nerio,
-      },
-      {
-        name: "Nick Caso",
-        image: Nick_Caso,
-      },
-      {
-        name: "Nick Moreno",
-        image: Nick_Moreno,
       },
       {
         name: "Matthew Oakland",
@@ -519,10 +466,6 @@ const peopleByCategory = [
         image: Jon_Kutsch,
       },
       {
-        name: "Eric McGonagle",
-        image: Eric_McGonagle,
-      },
-      {
         name: "Zach Iacobucci",
         image: Zach_Iacobucci,
       },
@@ -533,23 +476,6 @@ const peopleByCategory = [
       {
         name: "Micaiah Wood",
         image: Micaiah_Wood,
-      },
-      {
-        name: "Tyler Powell",
-        image: Tyler_Powell,
-      },
-      {
-        name: "Jaden Banze",
-        image: Jaden_Banze,
-      },
-
-      {
-        name: "Jackson David",
-        image: Jackson_David,
-      },
-      {
-        name: "Manuel PanDavilla",
-        image: Manuel_PanDavilla,
       },
       {
         name: "Luke Sciba",
@@ -568,10 +494,6 @@ const peopleByCategory = [
         image: Chad_Cordova,
       },
       {
-        name: "Mason Joyner",
-        image: Mason_Joyner,
-      },
-      {
         name: "Juan Ardila",
         image: Juan_Ardila,
       },
@@ -584,20 +506,12 @@ const peopleByCategory = [
         image: Kyle_Dessens,
       },
       {
-        name: "Julian Pollina",
-        image: Julian_Pollina,
-      },
-      {
         name: "Ryan Ozelton",
         image: Ryan_Ozelton,
       },
       {
         name: "Luis Calvo Gerstner",
         image: Luis_Calvo_Gerstner,
-      },
-      {
-        name: "John Hayes",
-        image: John_Hayes,
       },
       {
         name: "Damon Banduk",
@@ -621,20 +535,12 @@ const peopleByCategory = [
         image: Whitten_Bowles,
       },
       {
-        name: "Ben Brod",
-        image: Ben_Brod,
-      },
-      {
         name: "Aidan Pena",
         image: Aidan_Pena,
       },
       {
         name: "Chase Albright",
         image: Chase_Albright,
-      },
-      {
-        name: "Reed Huffmyer",
-        image: Reed_Huffmyer,
       },
       {
         name: "Mark Thiele",
@@ -644,7 +550,6 @@ const peopleByCategory = [
         name: "Gerardo Ruiz",
         image: Gerardo_Ruiz,
       },
-
       {
         name: "Jackson Owen",
         image: Jackson_Owen,
@@ -657,6 +562,30 @@ const peopleByCategory = [
         name: "Nick Bodenheimer",
         image: Nick_Bodenheimer,
       },
+      {
+        name: "Hudson Hurtig",
+        image: Hudson_Hurtig,
+      },
+      {
+        name: "Andrew Lin",
+        image: Andrew_Lin,
+      },
+      {
+        name: "Joseph Valenta",
+        image: Joseph_Valenta,
+      },
+      {
+        name: "Joshua Mayhugh",
+        image: Joshua_Mayhugh,
+      },
+      {
+        name: "Peyton Woytek",
+        image: Peyton_Woytek,
+      },
+      {
+        name: "Van Wilcox",
+        image: Van_Wilcox,
+      }
     ],
   },
 ];
