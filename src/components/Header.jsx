@@ -168,22 +168,14 @@ const Header = ({ setActiveTab }) => {
       >
         MEMBER PORTAL
       </a>
-      <a
+      {/* <a
         className="nav-text"
         id="member-portal-button"
         href="https://donorbox.org/events/566153"
       >
         
         Swinging For Hope Tickets
-      </a>
-      <a
-        className="nav-text"
-        id="member-portal-button"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSd-LJbP0ZsmXnVR3d7gFtkf2I0lJ5KWUSrAPp3CSPeo0-AUvA/viewform"
-      >
-        
-        APPLY HERE
-      </a>
+      </a> */}
     </header>
   );
 };
