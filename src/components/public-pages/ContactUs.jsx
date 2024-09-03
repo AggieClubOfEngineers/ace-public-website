@@ -18,25 +18,25 @@ function ContactUs() {
           <div className="position">
             <span className="position-title">President:</span>{" "}
             <a className="email" href="mailto:tamuacepresident@gmail.com">
-              Nick Dittemore
+              Brandon Turnage
             </a>
           </div>
           <div className="position">
             <span className="position-title">External Vice President:</span>{" "}
             <a className="email" href="mailto:aceexternalvp@gmail.com">
-              Brandon Turnage
+              Jacob Technik
             </a>
           </div>
           <div className="position">
             <span className="position-title">Social:</span>{" "}
             <a className="email" href="mailto:nils.ljung@tamu.edu">
-              Nils Ljung
+              Lucas Giammona
             </a>
           </div>
           <div className="position">
             <span className="position-title">Webmaster:</span>{" "}
             <a className="email" href="mailto:acetamuwebmaster@gmail.com">
-              Nathan Casazza
+              Eric McGonagle
             </a>
           </div>
         </div>
@@ -44,25 +44,25 @@ function ContactUs() {
           <div className="position">
             <span className="position-title">Internal Vice President:</span>{" "}
             <a className="email" href="mailto:aceivp@gmail.com">
-              Hudson Hurtig
+              Jess Holbert
             </a>
           </div>
           <div className="position">
             <span className="position-title">Secretary:</span>{" "}
             <a className="email" href="mailto:ace.secretary.tamu@gmail.com">
-              Connor Gilliland
+              Jack Bridges
             </a>
           </div>
           <div className="position">
             <span className="position-title">Service:</span>{" "}
             <a className="email" href="mailto:tamuaceservice@gmail.com">
-              Sid Venkatraman
+              Brandon Zhao
             </a>
           </div>
           <div className="position">
             <span className="position-title">Philanthropy:</span>{" "}
             <a className="email" href="mailto:acephilanthropy@gmail.com">
-              Joseph Valenta
+              Landon Miller
             </a>
           </div>
         </div>
