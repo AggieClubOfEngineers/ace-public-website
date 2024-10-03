@@ -168,6 +168,13 @@ const Header = ({ setActiveTab }) => {
       >
         MEMBER PORTAL
       </a>
+      <a
+        className="nav-text"
+        id="member-portal-button"
+        href="https://aggiesweethearts.crowdchange.co/41622/add/ticket"
+      >
+        BSB TICKET LINK
+      </a>
       {/* <a
         className="nav-text"
         id="member-portal-button"
