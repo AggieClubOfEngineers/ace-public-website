@@ -160,21 +160,21 @@ const Header = ({ setActiveTab }) => {
           </li> */}
         </ul>
       </div>
+      <a
+        className="nav-text"
+        id="member-portal-button"
+        href="https://www.ace-chilifest.com/"
+      >
 
+        CHILIFEST TICKETS
+      </a>
+      {/* 
       <a
         className="nav-text"
         id="member-portal-button"
         href="https://ace-website-host.web.app/"
       >
         MEMBER PORTAL
-      </a>
-      {/* <a
-        className="nav-text"
-        id="member-portal-button"
-        href="https://donorbox.org/events/566153"
-      >
-        
-        Swinging For Hope Tickets
       </a> */}
     </header>
   );
