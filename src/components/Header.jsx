@@ -160,14 +160,6 @@ const Header = ({ setActiveTab }) => {
           </li> */}
         </ul>
       </div>
-      <a
-        className="nav-text"
-        id="member-portal-button"
-        href="https://www.ace-chilifest.com/"
-      >
-
-        CHILIFEST TICKETS
-      </a>
       {/* 
       <a
         className="nav-text"
