@@ -178,6 +178,14 @@ const Header = ({ setActiveTab }) => {
               >
                 Non-Student Tickets
               </a>
+              <a
+                className="modal-button"
+                href="https://buy.stripe.com/8wM3eheFrb0lfE49AE"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Spectator Tickets
+              </a>
             </div>
             <button onClick={closeModal} className="modal-close">
               Close
