@@ -180,12 +180,21 @@ const Header = ({ setActiveTab }) => {
               </a>
               <a
                 className="modal-button"
+                href="https://buy.stripe.com/bIY9CF40N2tP4Zq7sx"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              Non-Shirt Tickets
+              </a>
+              <a
+                className="modal-button"
                 href="https://buy.stripe.com/8wM3eheFrb0lfE49AE"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Spectator Tickets
               </a>
+              
             </div>
             <button onClick={closeModal} className="modal-close">
               Close
