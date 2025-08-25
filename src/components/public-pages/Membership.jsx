@@ -126,7 +126,7 @@ const peopleByCategory = [
         name: "John Hayes",
         position: "Treasurer",
         linkedin: "https://www.linkedin.com/in/john-hayes-547403256/",
-        major: "Industrial Engineering'26 & MS Finance '27",
+        major: "Industrial Engineering '26 & MS Finance '27",
         image: John_Hayes,
       },
       {
@@ -180,7 +180,7 @@ const peopleByCategory = [
         name: "Alejandro Velasco",
         position: "Recruitment Chair",
         linkedin: "https://www.linkedin.com/in/alejandro-velasco-861865239/",
-        major: "Electrical Engineering & MS Finance '24",
+        major: "Industrial Distribution '26 & MS Finance '27",
         image: Alejandro_Velasco,
       },
       {
@@ -220,7 +220,7 @@ const peopleByCategory = [
         name: "Quinn Hamilton",
         position: "Corporate Chair",
         linkedin: "https://www.linkedin.com/in/quinnhamilton9/",
-        major: "Industrial Engineering & MS Finance '27",
+        major: "Industrial Engineering '26 & MS Finance '27",
         image: Quinn_Hamilton,
       },
       {
