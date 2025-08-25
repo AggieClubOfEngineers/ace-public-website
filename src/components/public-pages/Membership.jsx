@@ -5,7 +5,9 @@ import "../../styles/membership.css";
 import Ben_Snavely from "../../assets/img/2023Headshots/Ben_Snavely.jpg";
 import Jacob_Technik from "../../assets/img/2023Headshots/Jacob_Technik.JPG";
 import Joshua_Mayhugh from "../../assets/img/2023Headshots/Joshua_Mayhugh.JPG";
-import Jack_Bridges from "../../assets/img/2023Headshots/Jack_Bridges.JPG";
+import Manuel_Pandavila from "../../assets/img/2023Headshots/Manuel_Pandavila.JPG";
+import Jacob_Hargreaves from "../../assets/img/2023Headshots/Jacob_Hargreaves.JPG";
+
 // non-executive staff
 import Quinn_Hamilton from "../../assets/img/2025_officers_headshots/Quinn_Hamilton.JPG";
 import Sean_Dessens from "../../assets/img/2025_officers_headshots/Sean_Dessens.JPG";
@@ -75,8 +77,9 @@ const Membership = () => (
               />
               <div className="person-info-bottom">
                 <h2 className="person-name">{person.name}</h2>
-                {person.major && <h3 className="person-major">{person.major}</h3>}
-             
+                {person.major && (
+                  <h3 className="person-major">{person.major}</h3>
+                )}
               </div>
             </div>
           ))}
@@ -110,14 +113,14 @@ const peopleByCategory = [
         position: "External VP",
         linkedin: "https://www.linkedin.com/in/manuel-j-pandavila/",
         major: "Materials Science and Engineering '26",
-        image: Jacob_Technik,
+        image: Manuel_Pandavila,
       },
       {
         name: "Jacob Hargreaves",
         position: "Secretary",
         linkedin: "https://www.linkedin.com/in/jacob-hargreaves-89035028a/",
         major: "Mechanical Engineering '26",
-        image: Jack_Bridges,
+        image: Jacob_Hargreaves,
       },
       {
         name: "John Hayes",
@@ -176,7 +179,7 @@ const peopleByCategory = [
       {
         name: "Alejandro Velasco",
         position: "Recruitment Chair",
-        linkedin: "https://www.linkedin.com/in/nicholas-caso/",
+        linkedin: "https://www.linkedin.com/in/alejandro-velasco-861865239/",
         major: "Electrical Engineering & MS Finance '24",
         image: Alejandro_Velasco,
       },
@@ -216,7 +219,7 @@ const peopleByCategory = [
       {
         name: "Quinn Hamilton",
         position: "Corporate Chair",
-        linkedin: "https://www.linkedin.com/in/eddie-villegas-29431b253/",
+        linkedin: "https://www.linkedin.com/in/quinnhamilton9/",
         major: "Industrial Engineering & MS Finance '27",
         image: Quinn_Hamilton,
       },
@@ -251,7 +254,7 @@ const peopleByCategory = [
       {
         name: "Jaime Barrea",
         position: "Social Media Chair",
-        linkedin: "https://www.linkedin.com/in/manuel-j-pandavila-505879274/",
+        linkedin: "https://www.linkedin.com/in/jbarrera22/",
         major: "Industrual Distribution '26",
         image: Jaime_Barrea,
       },
@@ -272,6 +275,5 @@ const peopleByCategory = [
     ],
   },
 ];
-
 
 export default Membership;
