@@ -258,8 +258,8 @@ const peopleByCategory = [
       {
         name: "Sean Dessens",
         position: "Special Events Chair",
-        linkedin: "https://www.linkedin.com/in/jbarrera22/",
-        major: "Multidisc Engineering Tech '25",
+        linkedin: "https://www.linkedin.com/in/sean-dessens-15ab71316/",
+        major: "Civil Engineering '28",
         image: Sean_Dessens,
       },
       {
