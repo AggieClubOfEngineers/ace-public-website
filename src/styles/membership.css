@@ -45,10 +45,12 @@ h2 {
 }
 
 .person-image {
-  width: 100%;
-  height: auto;
-  grid-row: 2;
-  object-fit: cover;
+  width: 240px;         
+  height: 240px;         
+  object-fit: cover;     
+  border-radius: 8px;    
+  display: block;
+  margin: 0 auto;
 }
 
 .person-info-top,
