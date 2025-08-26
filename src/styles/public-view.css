@@ -113,7 +113,22 @@ li a:hover {
   text-shadow: 0 0 1px #c2c2c2, 0 0 0.5px #c2c2c2;
 }
 
-#member-portal-button {
+/* #member-portal-button {
+  grid-column: 3;
+  justify-self: end;
+  background-color: #123456d8;
+  border-radius: 50px;
+  border: 1px solid #a2a2a2;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: fit-content;
+  padding: 1rem 1rem;
+} */
+#application-button {
   grid-column: 3;
   justify-self: end;
   background-color: #123456d8;

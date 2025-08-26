@@ -147,19 +147,28 @@ const Header = ({ setActiveTab }) => {
       {/* Changed from an <a> to a button that triggers the modal */}
       <button
         className="nav-text"
+        id="application-button"
+        onClick={() =>
+          window.open(
+            "https://docs.google.com/forms/d/e/1FAIpQLScfp9az4PMCXRBxen2MW0yXOT0B8iSP7LXZyO4iItHfWsPN3g/viewform",
+            "_blank"
+          )
+        }
+      >
+        New Member Application
+      </button>
+      {/* <button
+        className="nav-text"
         id="member-portal-button"
         onClick={() => setShowTicketModal(true)}
       >
         Pickleball for Patriots
-      </button>
+      </button> */}
 
       {/* Pickleball for Patriots popup */}
-      {showTicketModal && (
+      {/* {showTicketModal && (
         <div className="modal-overlay" onClick={closeModal}>
-          <div
-            className="modal-content"
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h2>Select Ticket Type</h2>
             <div className="modal-buttons">
               <a
@@ -184,7 +193,7 @@ const Header = ({ setActiveTab }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              Non-Shirt Tickets
+                Non-Shirt Tickets
               </a>
               <a
                 className="modal-button"
@@ -194,14 +203,13 @@ const Header = ({ setActiveTab }) => {
               >
                 Spectator Tickets
               </a>
-              
             </div>
             <button onClick={closeModal} className="modal-close">
               Close
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </header>
   );
 };
