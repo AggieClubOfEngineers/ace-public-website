@@ -145,7 +145,7 @@ const Header = ({ setActiveTab }) => {
       </div>
 
       {/* Changed from an <a> to a button that triggers the modal */}
-      <button
+      {/* <button
         className="nav-text"
         id="application-button"
         onClick={() =>
@@ -156,7 +156,7 @@ const Header = ({ setActiveTab }) => {
         }
       >
         New Member Application
-      </button>
+      </button> */}
       {/* <button
         className="nav-text"
         id="member-portal-button"
