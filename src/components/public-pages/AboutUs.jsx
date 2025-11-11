@@ -1,6 +1,6 @@
 import React from "react";
 
-import presidentHeadshot from "../../assets/img/2023Headshots/Jacob_Technik.jpg";
+import presidentHeadshot from "../../assets/img/2023Headshots/Jacob_Technik.JPG";
 import Loyalty from "../../assets/img/Loyalty.png";
 import Leadership from "../../assets/img/Leadership.png";
 import Integrity from "../../assets/img/Integrity.png";
