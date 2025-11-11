@@ -24,10 +24,10 @@ import nateMatthew from "../../assets/img/2022Headshots/nateMatthew.jpg";
 import lucasSwoyer from "../../assets/img/2022Headshots/lucasSwoyer.jpg";
 import vinnyLoBello from "../../assets/img/2022Headshots/vinnyLoBello.jpg";
 import JacksonNorfolk from "../../assets/img/HeadshotsFall2020Compressed/JacksonNorfolk.jpg";
-import clement from "../../assets/img/2021Headshots/clement.jpg";
-import podrazaheadshot from "../../assets/img/2021Headshots/podrazaheadshot.jpg";
+import clement from "../../assets/img/2021headshots/clement.jpg";
+import podrazaheadshot from "../../assets/img/2021headshots/podrazaheadshot.jpg";
 import jessHolbert from "../../assets/img/2022Headshots/jessHolbert.jpg";
-import bradenHeadshot from "../../assets/img/2021Headshots/bradenHeadshot.jpg";
+import bradenHeadshot from "../../assets/img/2021headshots/bradenHeadshot.jpg";
 import irvingSalinas from "../../assets/img/2022Headshots/irvingSalinas.jpg";
 import ericMcGon from "../../assets/img/2022Headshots/ericMcGon.jpg";
 import scottTrouy from "../../assets/img/2022Headshots/scottTrouy.jpg";
@@ -39,11 +39,11 @@ import JonVanwagenen from "../../assets/img/2022Headshots/jonV.png";
 import juanNerio from "../../assets/img/2022Headshots/juanNerio.jpg";
 import chaseAlbright from "../../assets/img/2022Headshots/chaseAlbright.jpg";
 import ethanBirdsall from "../../assets/img/2022Headshots/ethanBirdsall.jpg";
-import rogstadhedshot from "../../assets/img/2021Headshots/rogstadhedshot.jpg";
+import rogstadhedshot from "../../assets/img/2021headshots/rogstadhedshot.jpg";
 import benWhite from "../../assets/img/2022Headshots/benWhite.jpg";
 import lukeSmith from "../../assets/img/2022Headshots/lukeSmith.jpg";
 import dohoonKim from "../../assets/img/2022Headshots/dohoonKim.jpg";
-import morenoheadshot from "../../assets/img/2021Headshots/morenoheadshot.jpg";
+import morenoheadshot from "../../assets/img/2021headshots/morenoheadshot.jpg";
 
 const Recruitment = () => (
   <div className="recruitment-content">
