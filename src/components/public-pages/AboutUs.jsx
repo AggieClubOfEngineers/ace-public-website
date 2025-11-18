@@ -1,6 +1,6 @@
 import React from "react";
 
-import presidentHeadshot from "../../assets/img/2023Headshots/Brandon_Turnage.jpg";
+import presidentHeadshot from "../../assets/img/2023Headshots/Jacob_Technik.JPG";
 import Loyalty from "../../assets/img/Loyalty.png";
 import Leadership from "../../assets/img/Leadership.png";
 import Integrity from "../../assets/img/Integrity.png";
@@ -79,8 +79,8 @@ function AboutUs() {
           Howdy!
           <br />
           <br />
-          My name is Brandon Turnage and I am beyond honored to serve as
-          President of the Aggie Club of Engineers (ACE) for the 2024-2025 year.
+          My name is Jacob Technik and I am beyond honored to serve as
+          President of the Aggie Club of Engineers (ACE) for the 2025-2026 year.
           ACE is comprised of the most talented and intelligent engineering
           students on campus and stands as a testament to the caliber of
           individuals who choose to be a part of the Aggie family. We take great
@@ -131,7 +131,7 @@ function AboutUs() {
           Thanks and Gig 'em,
           <br />
           <br />
-          Brandon Turnage
+          Jacob Technik
           <br />
           President, Aggie Club of Engineers
         </p>

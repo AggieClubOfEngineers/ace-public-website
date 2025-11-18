@@ -2,10 +2,10 @@ import React from "react";
 import { BrandLinkedin } from "tabler-icons-react";
 
 import "../../styles/membership.css";
-import Ben_Snavely from "../../assets/img/2023Headshots/Ben_Snavely.jpg";
+import Ben_Snavely from "../../assets/img/2023Headshots/Ben_Snavely.JPG";
 import Jacob_Technik from "../../assets/img/2023Headshots/Jacob_Technik.JPG";
 import Joshua_Mayhugh from "../../assets/img/2023Headshots/Joshua_Mayhugh.JPG";
-import Manuel_Pandavila from "../../assets/img/2023Headshots/Manuel_Pandavila.JPG";
+import Manuel_Pandavila from "../../assets/img/2023Headshots/Manuel_PanDavila.JPG";
 import Jacob_Hargreaves from "../../assets/img/2023Headshots/Jacob_Hargreaves.JPG";
 
 // non-executive staff
