@@ -131,11 +131,12 @@ a {
   }
 
   .person-name {
-    font-size: 0.9rem;
+    font-size: 1.6rem;
   }
 
   .person-major {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 
   .membership-content {
@@ -144,11 +145,11 @@ a {
   }
 
   .person-info-bottom {
-    height: 3rem;
+    height: 4rem;
   }
 
   .person-position {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
 
   .person-info-top {
@@ -164,6 +165,7 @@ a {
   .service-content {
     width: 92vw !important;
   }
+
   .service-logo {
     position: relative;
     width: 50% !important;
