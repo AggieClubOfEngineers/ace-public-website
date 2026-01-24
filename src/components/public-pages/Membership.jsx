@@ -34,13 +34,10 @@ const Membership = () => (
     {peopleByCategory.map((category, index, array) => (
       <section
         key={category.title}
-        className={`category-container ${
-          index === array.length - 1
-            ? "last-category "
-            : "" + index == 0
-            ? "first-category"
-            : ""
-        }`}
+        className={`category-container
+          ${index === 0 ? " first-category" : ""}
+          ${index === array.length - 1 ? " last-category" : ""}
+        `}
       >
         <h2>{category.title}</h2>
         <div className="people-container">
