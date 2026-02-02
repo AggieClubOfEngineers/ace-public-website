@@ -166,7 +166,7 @@ const peopleByCategory = [
       {
         name: "Ridge Robinson",
         position: "Philanthropy Chair",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/ridge-robinson-2963a935a/",
         major: "Mechanical Engineering '27",
         image: Ridge_Robinson,
       },
