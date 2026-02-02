@@ -1,4 +1,3 @@
-import React from "react";
 import { BrandLinkedin } from "tabler-icons-react";
 
 import "../../styles/membership.css";
@@ -9,25 +8,25 @@ import Manuel_Pandavila from "../../assets/img/2023Headshots/Manuel_PanDavila.JP
 import Jacob_Hargreaves from "../../assets/img/2023Headshots/Jacob_Hargreaves.JPG";
 
 // non-executive staff
-import Quinn_Hamilton from "../../assets/img/2025_officers_headshots/Quinn_Hamilton.JPG";
-import Sean_Dessens from "../../assets/img/2025_officers_headshots/Sean_Dessens.JPG";
-import Jaime_Barrea from "../../assets/img/2025_officers_headshots/Jaime_Barrea.JPG";
+import Quinn_Hamilton from "../../assets/img/2026Headshots/quinn_hamilton.JPG";
+import Sean_Dessens from "../../assets/img/2026Headshots/sean_dessens.JPG";
+import Jaime_Barrea from "../../assets/img/2026Headshots/jaime_barrea.JPG";
 import Grant_Ward from "../../assets/img/2025_officers_headshots/Grant_Ward.JPG";
-import Logan_Knichel from "../../assets/img/2025_officers_headshots/Logan_Knichel.JPG";
-import Dylan_Hebert from "../../assets/img/2025_officers_headshots/Dylan_Hebert.JPG";
-import Taylor_Six from "../../assets/img/2025_officers_headshots/Taylor_Six.JPG";
-import Justin_Choi from "../../assets/img/2025_officers_headshots/Justin_Choi.JPG";
-import Kyle_Evans from "../../assets/img/2025_officers_headshots/Kyle_Evans.JPG";
-import Hudson_Elbert from "../../assets/img/2025_officers_headshots/Hudson_Elbert.JPG";
-import Ridge_Robinson from "../../assets/img/2025_officers_headshots/Ridge_Robinson.JPG";
-import Cole_Garrett from "../../assets/img/2025_officers_headshots/Cole_Garrett.JPG";
+import Logan_Knichel from "../../assets/img/2026Headshots/logan_knichel.jpeg";
+import Dylan_Hebert from "../../assets/img/2026Headshots/dylan_herbert.JPG";
+import Taylor_Six from "../../assets/img/2026Headshots/taylor_six.JPG";
+import Justin_Choi from "../../assets/img/2026Headshots/justin_choi.JPG";
+import Kyle_Evans from "../../assets/img/2026Headshots/kyle_evans.JPG";
+import Hudson_Elbert from "../../assets/img/2026Headshots/hudson_elbert.JPG";
+import Ridge_Robinson from "../../assets/img/2026Headshots/ridge_robinson.jpeg";
+import Cole_Garrett from "../../assets/img/2026Headshots/cole_garret.JPG";
 import Alan_Marini from "../../assets/img/2023Headshots/Alan_Marini.JPG";
-import Eric_McGonagle from "../../assets/img/2022Headshots/ericMcGon.jpg";
+import Eric_McGonagle from "../../assets/img/2026Headshots/eric_mcgonagle.JPG";
 import Luis_Calvo_Gerstner from "../../assets/img/2025_officers_headshots/Luis_Calvo.JPG";
-import Alejandro_Velasco from "../../assets/img/2023Headshots/Alejandro_Velasco.JPG";
-import Julian_Pollina from "../../assets/img/2023Headshots/Julian_Pollina.JPG";
+import Alejandro_Velasco from "../../assets/img/2026Headshots/alejandro_velasco.JPG";
+import Julian_Pollina from "../../assets/img/2026Headshots/jullian_pollina.JPG";
 import John_Hayes from "../../assets/img/2023Headshots/John_Hayes.JPG";
-import Nick_Bodenheimer from "../../assets/img/2022Headshots/nickBod.jpg";
+import Nick_Bodenheimer from "../../assets/img/2026Headshots/nick_bodenheimer.JPG";
 
 const Membership = () => (
   <div className="membership-content">
@@ -44,9 +43,7 @@ const Membership = () => (
           {category.people.map((person) => (
             <div
               key={person.name}
-              className={
-                "person-container" + (person.position ? "" : " active")
-              }
+              className={"person-container" + (person.position ? "" : " active")}
             >
               {person.linkedin && (
                 <a href={person.linkedin} className="linkedin-link">
