@@ -9,9 +9,10 @@
 }
 
 .people-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2em;
+  justify-content: center;
   border-top: 2px solid whitesmoke;
   border-bottom: 2px solid whitesmoke;
   position: relative;
@@ -23,6 +24,8 @@
   grid-template-rows: auto 1fr auto;
   position: relative;
   height: fit-content;
+  width: fit-content;
+  justify-self: center;
   border: 2px solid #252525;
   border-radius: 8px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
@@ -50,7 +53,6 @@ h2 {
   object-fit: cover;     
   border-radius: 8px;    
   display: block;
-  margin: 0 auto;
 }
 
 .person-info-top,
@@ -60,6 +62,8 @@ h2 {
   justify-content: center;
   align-items: center;
   background-color: #4c4c4c;
+  width: 240px;
+  box-sizing: border-box;
 }
 
 .person-info-top {
@@ -103,10 +107,9 @@ h2 {
 }
 
 .person-name {
-  font-family: "URW Chancery L", "Monotype Corsiva", "Apple Chancery",
-    "ITC Zapf Chancery", cursive;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: whitesmoke;
-  font-size: x-large;
+  font-size: medium;
 }
 
 .person-position {
@@ -136,11 +139,6 @@ h2 {
   color: white;
 }
 
-.first-category > .people-container {
-  margin-top: 0.5em !important;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
-}
-
 .first-category.category-container {
   margin-top: 1em;
   padding: 0em 3em 0.5em 3em;
@@ -149,5 +147,17 @@ h2 {
 @media (max-width: 768px) {
   .category-container .people-container {
     grid-template-columns: 1fr;
+  }
+  
+  .person-name {
+    font-size: 0.85rem !important;
+  }
+  
+  .person-position {
+    font-size: 0.8rem !important;
+  }
+  
+  .person-major {
+    font-size: 0.75rem !important;
   }
 }
