@@ -113,21 +113,41 @@ li a:hover {
   text-shadow: 0 0 1px #c2c2c2, 0 0 0.5px #c2c2c2;
 }
 
-/* #member-portal-button {
+#member-portal-button {
   grid-column: 3;
   justify-self: end;
-  background-color: #123456d8;
-  border-radius: 50px;
-  border: 1px solid #a2a2a2;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
   height: fit-content;
-  padding: 1rem 1rem;
-} */
+  padding: 0.7rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(18, 52, 86, 0.95), rgba(28, 82, 136, 0.95));
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+#member-portal-button:hover {
+  background: linear-gradient(135deg, rgba(28, 82, 136, 0.95), rgba(18, 52, 86, 0.95));
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.34);
+}
+
+#member-portal-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.28);
+}
+
+#member-portal-button:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 2px;
+}
 #application-button {
   grid-column: 3;
   justify-self: end;
@@ -273,6 +293,11 @@ li a:hover {
   #wolf-logo,
   .navbar-nav {
     display: none;
+  }
+
+  #member-portal-button {
+    padding: 0.55rem 0.95rem;
+    font-size: 13px;
   }
 }
 

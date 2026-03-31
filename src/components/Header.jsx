@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
+import PropTypes from "prop-types";
 import { Menu as MenuIcon } from "tabler-icons-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logos/wolf_logo.svg";
@@ -157,47 +158,31 @@ const Header = ({ setActiveTab }) => {
       >
         New Member Application
       </button> */}
-      {/* <button
+      <button
         className="nav-text"
         id="member-portal-button"
         onClick={() => setShowTicketModal(true)}
       >
         Pickleball for Patriots
-      </button> */}
+      </button>
 
       {/* Pickleball for Patriots popup */}
-      {/* {showTicketModal && (
+      {showTicketModal && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h2>Select Ticket Type</h2>
             <div className="modal-buttons">
               <a
                 className="modal-button"
-                href="https://buy.stripe.com/6oEaGJ40N6K54Zq3cc"
+                href="https://buy.stripe.com/bJebJ09db5Xs9DG86qgjC09"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Student Tickets
+                Participant Tickets
               </a>
               <a
                 className="modal-button"
-                href="https://buy.stripe.com/aEUcOR1SFb0lgI8eUV"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Non-Student Tickets
-              </a>
-              <a
-                className="modal-button"
-                href="https://buy.stripe.com/bIY9CF40N2tP4Zq7sx"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Non-Shirt Tickets
-              </a>
-              <a
-                className="modal-button"
-                href="https://buy.stripe.com/8wM3eheFrb0lfE49AE"
+                href="https://buy.stripe.com/fZu8wO60Z3Pk17aeuOgjC08"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -209,9 +194,13 @@ const Header = ({ setActiveTab }) => {
             </button>
           </div>
         </div>
-      )} */}
+      )}
     </header>
   );
+};
+
+Header.propTypes = {
+  setActiveTab: PropTypes.func.isRequired,
 };
 
 export default Header;
