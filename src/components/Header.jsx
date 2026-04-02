@@ -174,6 +174,14 @@ const Header = ({ setActiveTab }) => {
             <div className="modal-buttons">
               <a
                 className="modal-button"
+                href="https://pickleball-for-patriots.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register
+              </a>
+              <a
+                className="modal-button"
                 href="https://buy.stripe.com/bJebJ09db5Xs9DG86qgjC09"
                 target="_blank"
                 rel="noopener noreferrer"

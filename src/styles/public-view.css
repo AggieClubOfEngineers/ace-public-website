@@ -287,6 +287,8 @@ li a:hover {
 @media screen and (max-width: 900px) {
   .hamburger-menu {
     display: block;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   /* Hide your original navigation */
