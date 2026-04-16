@@ -178,16 +178,16 @@ const Header = ({ setActiveTab }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Register
+                Register (Buy Participant Tickets Here)
               </a>
-              <a
+              {/* <a
                 className="modal-button"
                 href="https://buy.stripe.com/bJebJ09db5Xs9DG86qgjC09"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Participant Tickets
-              </a>
+              </a> */}
               <a
                 className="modal-button"
                 href="https://buy.stripe.com/fZu8wO60Z3Pk17aeuOgjC08"
