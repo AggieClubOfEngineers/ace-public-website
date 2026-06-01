@@ -80,7 +80,7 @@ function AboutUs() {
           <br />
           <br />
           My name is Sean Dessens and I am beyond honored to serve as
-          President of the Aggie Club of Engineers (ACE) for the 2025-2026 year.
+          President of the Aggie Club of Engineers (ACE) for the 2026-2027 year.
           ACE is comprised of the most talented and intelligent engineering
           students on campus and stands as a testament to the caliber of
           individuals who choose to be a part of the Aggie family. We take great
@@ -131,7 +131,7 @@ function AboutUs() {
           Thanks and Gig 'em,
           <br />
           <br />
-          Jacob Technik
+          Sean Dessens
           <br />
           President, Aggie Club of Engineers
         </p>
