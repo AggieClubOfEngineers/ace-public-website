@@ -18,25 +18,25 @@ function ContactUs() {
           <div className="position">
             <span className="position-title">President:</span>{" "}
             <a className="email" href="mailto:tamuacepresident@gmail.com">
-              Jacob Technik
+              Sean Dessens
             </a>
           </div>
           <div className="position">
             <span className="position-title">External Vice President:</span>{" "}
             <a className="email" href="mailto:aceexternalvp@gmail.com">
-              Manuel Pandavila
+              Taylor Six
             </a>
           </div>
           <div className="position">
             <span className="position-title">Social:</span>{" "}
             <a className="email" href="mailto:alan.j.marini@tamu.edu">
-              Alan Marini
+              Daniel Elbahri & Tyler Cernosek
             </a>
           </div>
           <div className="position">
             <span className="position-title">Webmaster:</span>{" "}
             <a className="email" href="mailto:acetamuwebmaster@gmail.com">
-              Joshua Mayhugh
+              Arman Singh
             </a>
           </div>
         </div>
@@ -44,25 +44,25 @@ function ContactUs() {
           <div className="position">
             <span className="position-title">Internal Vice President:</span>{" "}
             <a className="email" href="mailto:aceivp@gmail.com">
-              Julian Pollina
+              Ridge Robinson
             </a>
           </div>
           <div className="position">
             <span className="position-title">Secretary:</span>{" "}
             <a className="email" href="mailto:ace.secretary.tamu@gmail.com">
-              Jacob Hargreaves
+              Hudson Elbert
             </a>
           </div>
           <div className="position">
             <span className="position-title">Service:</span>{" "}
             <a className="email" href="mailto:tamuaceservice@gmail.com">
-              Hudson Elbert
+              Brant Decker
             </a>
           </div>
           <div className="position">
             <span className="position-title">Philanthropy:</span>{" "}
             <a className="email" href="mailto:acephilanthropy@gmail.com">
-              Ridge Robinson
+              Grant Eckenrode
             </a>
           </div>
         </div>

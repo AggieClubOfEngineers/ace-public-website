@@ -208,7 +208,7 @@ const peopleByCategory = [
         name: "Diego PanDavila",
         position: "Alumni Chair",
         linkedin: "https://www.linkedin.com/in/diego-pandavila-3609b9366/",
-        major: "Industrial Distribution '29",
+        major: "Industrial & Systems Engineering '29",
         image: Diego_PanDavila,
       },
       {
