@@ -8,7 +8,7 @@ import Blane_Weiblen from "../../assets/img/2027Headshots/blane_weiblen.JPG";
 import Branson_Colianni from "../../assets/img/2027Headshots/branson_colianni.JPG";
 import Brant_Decker from "../../assets/img/2027Headshots/brant_decker.JPG";
 import Campbell_Dixon from "../../assets/img/2027Headshots/campbell_dixon.JPG";
-import Carlos_Isava from "../../assets/img/2027Headshots/carlos_isava.jpg";
+import Carlos_Isava from "../../assets/img/2027Headshots/carlos_isava.JPG";
 import Colton_Yanta from "../../assets/img/2027Headshots/colton_yanta.JPG";
 import Daniel_Elbahri from "../../assets/img/2027Headshots/daniel_elbahri.JPG";
 import Diego_PanDavila from "../../assets/img/2027Headshots/diego_pandivila.JPG";
