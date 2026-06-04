@@ -1,4 +1,5 @@
 import { BrandLinkedin } from "tabler-icons-react";
+import { Link } from "react-router-dom";
 
 import "../../styles/membership.css";
 
@@ -81,6 +82,13 @@ const Membership = () => (
         </div>
       </section>
     ))}
+    <section className="member-portal-cta">
+      <h2>ACE Member Portal</h2>
+      <p>Internal opportunities, alumni referrals, and member resources.</p>
+      <Link to="/portal" className="member-portal-button">
+        Enter Portal
+      </Link>
+    </section>
   </div>
 );
 

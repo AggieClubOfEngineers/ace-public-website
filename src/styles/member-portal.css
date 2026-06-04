@@ -1,0 +1,245 @@
+.portal-content {
+  width: 70vw;
+  min-height: 60vh;
+  margin: 2em 1rem 1rem;
+  padding: 2rem;
+  color: white;
+  background-color: var(--main-background-opaque);
+  border: 3px solid #252525;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.portal-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.portal-login p,
+.portal-header p {
+  margin-top: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.1rem;
+}
+
+.portal-login-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.portal-login-form input {
+  min-width: 220px;
+  padding: 0.8rem 1rem;
+  border: 1px solid #a2a2a2;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+
+.portal-login-form button,
+.portal-toolbar button,
+.portal-signout,
+.post-job-form button,
+.empty-jobs button {
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #a2a2a2;
+  border-radius: 50px;
+  background-color: #123456d8;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.portal-login-form button:hover,
+.portal-toolbar button:hover,
+.portal-toolbar button.active,
+.portal-signout:hover,
+.post-job-form button:hover,
+.empty-jobs button:hover {
+  background-color: #123456;
+}
+
+.post-job-form button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.portal-error {
+  color: #ffd4d4;
+}
+
+.post-job-error {
+  grid-column: 1 / -1;
+  margin: 0;
+  text-align: right;
+}
+
+.portal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 1rem;
+}
+
+.portal-header h1,
+.portal-header p {
+  text-align: left;
+}
+
+.portal-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.portal-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.post-job-toggle {
+  margin-left: auto;
+}
+
+.post-job-panel {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  border: 2px solid #252525;
+  border-radius: 8px;
+  background-color: rgba(76, 76, 76, 0.9);
+}
+
+.post-job-heading {
+  margin-bottom: 1rem;
+}
+
+.post-job-heading h2,
+.post-job-heading p {
+  text-align: left;
+}
+
+.post-job-heading p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.post-job-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.post-job-form input,
+.post-job-form select,
+.post-job-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #a2a2a2;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.post-job-form textarea {
+  grid-column: 1 / -1;
+  min-height: 90px;
+  resize: vertical;
+}
+
+.post-job-form button {
+  grid-column: 1 / -1;
+  justify-self: end;
+}
+
+.job-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.empty-jobs {
+  padding: 2rem;
+  text-align: center;
+  border: 2px solid #252525;
+  border-radius: 8px;
+  background-color: rgba(76, 76, 76, 0.9);
+}
+
+.empty-jobs p {
+  margin: 0.5rem 0 1rem;
+}
+
+.job-card {
+  padding: 1.25rem;
+  border: 2px solid #252525;
+  border-radius: 8px;
+  background-color: rgba(76, 76, 76, 0.9);
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.job-card-header h2,
+.job-card-header p {
+  text-align: left;
+}
+
+.job-card-header h2 {
+  font-size: 1.45rem;
+}
+
+.job-card-header span {
+  height: fit-content;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #a2a2a2;
+  border-radius: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.job-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.job-meta a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .portal-content {
+    width: 92vw;
+    padding: 1.25rem;
+  }
+
+  .portal-login-form,
+  .portal-header,
+  .job-card-header,
+  .portal-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .post-job-toggle {
+    margin-left: 0;
+  }
+
+  .post-job-form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -8,6 +8,7 @@ import Service from "../public-pages/Service";
 import Membership from "../public-pages/Membership";
 import Recruitment from "../public-pages/Recruitment";
 import ContactUs from "../public-pages/ContactUs";
+import MemberPortal from "../public-pages/MemberPortal";
 
 import nightZachImg from "../../assets/img/BackgroundImages/NightZach.jpg";
 import zeeImg from "../../assets/img/BackgroundImages/zeec.jpg";
@@ -36,6 +37,8 @@ const PublicView = () => {
         return `url('${website4Img}')`;
       case "membership":
         return `url('${website3Img}')`;
+      case "portal":
+        return `url('${website3Img}')`;
       case "contact-us":
         return `url('${bg4Img}')`;
       case "recruitment":
@@ -62,6 +65,7 @@ const PublicView = () => {
             <Route path="/about-us" component={AboutUs} />
             <Route path="/service" component={Service} />
             <Route path="/membership" component={Membership} />
+            <Route path="/portal" component={MemberPortal} />
             {/* <Route path="/recruitment" component={Recruitment} /> */}
             <Route path="/contact-us" component={ContactUs} />
           </Switch>
