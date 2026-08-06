@@ -158,13 +158,15 @@ const Header = ({ setActiveTab }) => {
       >
         New Member Application
       </button> */}
-      <button
+
+      {/* Pickleball for Patriots button hidden for now. Uncomment to restore. */}
+      {/* <button
         className="nav-text"
         id="member-portal-button"
         onClick={() => setShowTicketModal(true)}
       >
         Pickleball for Patriots
-      </button>
+      </button> */}
 
       {/* Pickleball for Patriots popup */}
       {showTicketModal && (

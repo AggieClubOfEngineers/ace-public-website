@@ -23,7 +23,7 @@ import Matthew_Chilek from "../../assets/img/2027Headshots/matthew_chilek.JPG";
 import Nicolas_Gonzalez from "../../assets/img/2027Headshots/nicolas_gonzalez.JPG";
 import Ridge_Robinson from "../../assets/img/2027Headshots/ridge_robinson.jpeg";
 import Sean_Dessens from "../../assets/img/2027Headshots/sean_dessens.JPG";
-import Taylor_Six from "../../assets/img/2027Headshots/taylor_six.JPG";
+import Taylor_Six from "../../assets/img/2027Headshots/taylor six.png";
 import Travis_Eggleston from "../../assets/img/2027Headshots/travis_eggleston.JPG";
 import Tyler_Cernosek from "../../assets/img/2027Headshots/tyler_cernosek.JPG";
 import Weston_Ruemmele from "../../assets/img/2027Headshots/weston_ruemmele.JPG";
