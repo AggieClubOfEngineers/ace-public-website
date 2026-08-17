@@ -1,5 +1,6 @@
 .portal-content {
   width: 70vw;
+  max-width: 1180px;
   min-height: 60vh;
   margin: 2em 1rem 1rem;
   padding: 2rem;
@@ -33,6 +34,7 @@
 
 .portal-login-form input {
   min-width: 220px;
+  width: 100%;
   padding: 0.8rem 1rem;
   border: 1px solid #a2a2a2;
   border-radius: 50px;
@@ -44,6 +46,7 @@
 .portal-signout,
 .post-job-form button,
 .empty-jobs button {
+  min-height: 44px;
   padding: 0.8rem 1.2rem;
   border: 1px solid #a2a2a2;
   border-radius: 50px;
@@ -91,6 +94,10 @@
 .portal-header h1,
 .portal-header p {
   text-align: left;
+}
+
+.portal-header h1 {
+  overflow-wrap: anywhere;
 }
 
 .portal-toolbar {
@@ -142,6 +149,7 @@
 .post-job-form input,
 .post-job-form select,
 .post-job-form textarea {
+  min-width: 0;
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #a2a2a2;
@@ -195,6 +203,7 @@
 .job-card-header h2,
 .job-card-header p {
   text-align: left;
+  overflow-wrap: anywhere;
 }
 
 .job-card-header h2 {
@@ -217,14 +226,37 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.job-meta span,
+.job-meta a {
+  overflow-wrap: anywhere;
+}
+
 .job-meta a {
   color: white;
 }
 
 @media (max-width: 768px) {
   .portal-content {
-    width: 92vw;
+    width: min(92vw, 560px);
+    min-height: auto;
+    margin: 1rem auto 5.5rem;
     padding: 1.25rem;
+    border-width: 2px;
+    border-radius: 12px;
+  }
+
+  .portal-content h1 {
+    font-size: clamp(2rem, 9vw, 3rem);
+    line-height: 1;
+  }
+
+  .portal-content h2 {
+    font-size: clamp(1.45rem, 6vw, 2rem);
+    line-height: 1.1;
+  }
+
+  .portal-login {
+    min-height: 45vh;
   }
 
   .portal-login-form,
@@ -239,7 +271,57 @@
     margin-left: 0;
   }
 
+  .portal-filters {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .portal-toolbar button,
+  .portal-signout,
+  .post-job-form button,
+  .empty-jobs button {
+    width: 100%;
+  }
+
   .post-job-form {
     grid-template-columns: 1fr;
+  }
+
+  .post-job-panel,
+  .empty-jobs,
+  .job-card {
+    padding: 1rem;
+  }
+
+  .post-job-form button,
+  .post-job-error {
+    justify-self: stretch;
+    text-align: left;
+  }
+
+  .job-card-header span {
+    width: fit-content;
+  }
+
+  .job-meta {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .portal-content {
+    width: calc(100vw - 1.5rem);
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+
+  .portal-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .portal-login-form {
+    width: 100%;
   }
 }
