@@ -270,7 +270,7 @@ const peopleByCategory = [
       },
       {
         name: "Matthew Chilek",
-        position: "Tailgate Chair",
+        position: "Local Events Chair",
         linkedin: "https://www.linkedin.com/in/matthewchilek/",
         major: "Chemical Engineering '29",
         image: Matthew_Chilek,
