@@ -168,6 +168,16 @@ const Header = ({ setActiveTab }) => {
         Pickleball for Patriots
       </button> */}
 
+      <a
+        className="nav-text"
+        id="member-portal-button"
+        href="https://linktr.ee/ACERecruitment?utm_source=qr_code"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Recruitment
+      </a>
+
       {/* Pickleball for Patriots popup */}
       {showTicketModal && (
         <div className="modal-overlay" onClick={closeModal}>
