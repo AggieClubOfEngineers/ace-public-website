@@ -29,8 +29,14 @@ function ContactUs() {
           </div>
           <div className="position">
             <span className="position-title">Social:</span>{" "}
-            <a className="email" href="mailto:alan.j.marini@tamu.edu">
-              Daniel Elbahri & Tyler Cernosek
+            <a className="email" href="mailto:daniebahry@tamu.edu">
+              Daniel Elbahri
+            </a>
+          </div>
+          <div className="position">
+            <span className="position-title">Social:</span>{" "}
+            <a className="email" href="mailto:tycernosek@tamu.edu">
+              Tyler Cernosek
             </a>
           </div>
           <div className="position">
